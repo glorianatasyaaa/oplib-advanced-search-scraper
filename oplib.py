@@ -7,9 +7,10 @@ import re
 
 @dataclass
 class AdvancedSearchType:
-    SKRIPSI: int = 4
-    THESIS: int = 5
-    TA: int = 6
+    SKRIPSI: int = 4 #S1
+    TA: int = 6  #D3
+    #THESIS: int = 5 #S2
+    
     # ... and so on
 
 class OpenLibrary:
@@ -31,12 +32,24 @@ class OpenLibrary:
             .find("div", class_="pagination-imtelkom") \
             .find_all("li")
         
-        result = [] 
-        
-        for page in paginations:
-            url = self.base_url + page.find('a')['href']
-            if url not in result:
-                result.append(url)
+        # find last-page
+        result = []
+        url_last_page = paginations[-1].find('a').get('href')
+        number_last_page = int(re.search(r'(\d+)\.html', url_last_page).group(1))
+
+        for i in range(1 , number_last_page+1):
+            url = self.base_url + f'/home/catalog/page/{i}.html'
+            result.append(url)
+
+        print('=' * 32)
+        print(f'Ready to scarping {number_last_page} page from Open Library Telkom University')
+        print('=' * 32)
+
+        # result = [] 
+        # for page in paginations:
+        #     url = self.base_url + page.find('a')['href']
+        #     if url not in result:
+        #         result.append(url)
                 
         return result
     
@@ -77,6 +90,7 @@ class OpenLibrary:
             response = self.session.get(urls[i]).text
             
             yield i+1, length, self.parse_result(response)
+            print(f'Scarping {i+1} data')
             
     def parse_result(self, content):
         parsed = BeautifulSoup(content, "html.parser")
@@ -91,13 +105,27 @@ class OpenLibrary:
 
         catalog_attributes = parsed.find_all("div", class_="catalog-attributes")
         
-        subject = catalog_attributes[0] \
-                    .find("div", class_="col-md-3 col-sm-8 col-xs-12") \
+        general_information = catalog_attributes[0] \
+                            .find("div", class_="col-md-3 col-sm-8 col-xs-12")
+        
+        classification = general_information\
+                    .find_all("p")[-3]\
+                    .get_text()\
+                    .strip()
+        result["classification"] = self.remove_html_tags(classification)
+
+        type_publication = general_information\
+                    .find_all("p")[-2]\
+                    .get_text()\
+                    .strip()
+        result["type_publication"] = self.remove_html_tags(type_publication)
+
+        subject = general_information\
                     .find_all("p")[-1] \
                     .get_text() \
                     .strip()
-                    
         result["subject"] = self.remove_html_tags(subject)
+
 
         abstract = catalog_attributes[0] \
                     .find("div", class_="col-md-7 col-sm-12 col-xs-12") \
@@ -130,3 +158,4 @@ class OpenLibrary:
     def remove_html_tags(self, text: str) -> str:
         clean = re.compile('<.*?>')
         return re.sub(clean, '', text)
+    
