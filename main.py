@@ -2,7 +2,7 @@
 
 from oplib import OpenLibrary, AdvancedSearchType
 import pandas as pd
-import os
+import json
 
 if __name__ == "__main__":
     oplib = OpenLibrary()
@@ -59,9 +59,17 @@ if __name__ == "__main__":
             df = pd.concat([df, pd.DataFrame([data])], ignore_index=True)
             # print(f"[{index}/{totals}]: {data['title']}")
 
-        #Save csv file 
-        file_name = f'{start_day}-{start_month}-{start_year}_{end_day}-{end_month}-{end_year}_{file}.xlsx'
-        df.to_excel(file_name, index=False)
+        # #Save csv file 
+        # file_name = f'{start_day}-{start_month}-{start_year}_{end_day}-{end_month}-{end_year}_{file}.xlsx'
+        # df.to_excel(file_name, index=False)
+
+        # print(f'\nFinish Scraping all {file} data!\nfile name :  {file_name}\n\n')
+
+        #Save JSON File
+        file_name = f'{start_day}-{start_month}-{start_year}_{end_day}-{end_month}-{end_year}_{file}.json'
+
+        # Menyimpan data ke file JSON
+        df.to_json(file_name, orient='records')
 
         print(f'\nFinish Scraping all {file} data!\nfile name :  {file_name}\n\n')
         
