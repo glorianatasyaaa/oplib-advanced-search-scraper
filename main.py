@@ -2,14 +2,30 @@
 
 from oplib import OpenLibrary, AdvancedSearchType
 import pandas as pd
+import datetime
 import json
 
 if __name__ == "__main__":
     oplib = OpenLibrary()
 
     # TODO: Change the search options based on your needs
-    start_day,start_month,start_year = 1,1,2023
-    end_day,end_month,end_year = 5,1,2023
+
+    # Get current date
+    current_date = datetime.date.today()
+
+    # Extract year, month, and day
+    year = current_date.year
+    month = current_date.month
+    day = current_date.day
+
+    one_month_ago = current_date - datetime.timedelta(days=30)
+
+    year2 = one_month_ago.year
+    month2 = one_month_ago.month
+    day2 = one_month_ago.day
+    
+    start_day,start_month,start_year = day,month,year
+    end_day,end_month,end_year = day2,month2,year2
     publication_type =[AdvancedSearchType.SKRIPSI, 
                        AdvancedSearchType.TA,
                        #AdvancedSearchType.THESIS
