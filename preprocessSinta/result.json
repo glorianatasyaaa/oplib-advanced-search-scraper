@@ -1,0 +1,965 @@
+[
+    {
+        "judul":[
+            "Electronic Nose and Optimized Machine Learning Algorithms for Noninfused Aroma-Based Quality Identification of Gambung Green Tea"
+        ],
+        "penulis":[
+            "Wijaya, Dedy RahmanaSend mail to Wijaya D.R.;",
+            "Handayani, RiniaSend mail to Handayani R.;",
+            "Fahrudin, ToraaSend mail to Fahrudin T.;",
+            "Kusuma, Guntur PrabawaaSend mail to Kusuma G.P.;",
+            "Afianti, FarahbSend mail to Afianti F."
+        ],
+        "sdgs":[
+            "Tea is a widely consumed beverage globally, significantly impacting taste, aroma, and consumer satisfaction. Traditional methods of assessing tea quality rely on subjective sensory evaluation by expert panels, which can be time-consuming, expensive, and prone to biases. In recent years, electronic nose (e-nose) technology has emerged as a promising and objective approach to tea quality assessment. This study investigates the application of e-nose technology for the automated and objective assessment of Gambung green tea quality, especially for noninfused (dry) tea aroma. Using noninfused tea has advantages because it does not require a long preparation procedure such as brewing and does not damage the tea sample, so it can be used repeatedly. However, this also has its challenges due to the less strong tea aroma making it more difficult to identify. Machine learning algorithms and hyperparameter optimization (HPO) were utilized to evaluate their performance in classification and regression tasks. The k-nearest neighbor (k-NN) algorithm achieved the highest accuracy and provided reliable confusion matrix results. Moreover, the k-NN algorithm outperformed other approaches in predicting organoleptic scores, with the highest R-squared score and the lowest mean squared error values. In summary, this study demonstrates the potential of e-nose technology coupled with optimized machine learning algorithms for the noninfused aroma-based identification of Gambung green tea. However, improvements are required to enhance the performance of organoleptic score predictions. This study contributes to the understanding and application of e-nose technology in tea quality assessment, opening ways for further progress in this area.  \u00a9 2001-2012 IEEE.",
+            "H2COHView detailsExpand Substance 4-Vinylphenol",
+            "Powered by",
+            "PlumX metricsPlumX metrics (opens in new window)"
+        ],
+        "abstrak":[
+            "Tea is a widely consumed beverage globally, significantly impacting taste, aroma, and consumer satisfaction. Traditional methods of assessing tea quality rely on subjective sensory evaluation by expert panels, which can be time-consuming, expensive, and prone to biases. In recent years, electronic nose (e-nose) technology has emerged as a promising and objective approach to tea quality assessment. This study investigates the application of e-nose technology for the automated and objective assessment of Gambung green tea quality, especially for noninfused (dry) tea aroma. Using noninfused tea has advantages because it does not require a long preparation procedure such as brewing and does not damage the tea sample, so it can be used repeatedly. However, this also has its challenges due to the less strong tea aroma making it more difficult to identify. Machine learning algorithms and hyperparameter optimization (HPO) were utilized to evaluate their performance in classification and regression tasks. The k-nearest neighbor (k-NN) algorithm achieved the highest accuracy and provided reliable confusion matrix results. Moreover, the k-NN algorithm outperformed other approaches in predicting organoleptic scores, with the highest R-squared score and the lowest mean squared error values. In summary, this study demonstrates the potential of e-nose technology coupled with optimized machine learning algorithms for the noninfused aroma-based identification of Gambung green tea. However, improvements are required to enhance the performance of organoleptic score predictions. This study contributes to the understanding and application of e-nose technology in tea quality assessment, opening ways for further progress in this area.  \u00a9 2001-2012 IEEE."
+        ]
+    },
+    {
+        "judul":[
+            "Air Quality Analysis of the Capitol City in Developing Countries During COVID-19 Emergency Care Based on Internet of Things Data"
+        ],
+        "penulis":[
+            "Arin, Ikrar Adinataa,bSend mail to Arin I.A.;",
+            "Ramadhan, Ariefc;",
+            "Abdurachman, Edia;",
+            "Trisetyarso, Agunga;",
+            "Zarlis, Muhammada"
+        ],
+        "sdgs":[
+            "This paper attempts to develop statistical modeling for air-conditioning analysis in Jakarta, Indonesia, during an emergency state of community activity restrictions enforcement (Emergency CARE), using a variety of parameters such as PM10, PM2.5, SO2, CO, O3, and NO2 from five IoT-based air monitoring systems. The parameters mentioned above are critical for assessing the air quality conditions and concentration of air pollutants. Outdoor air pollution concentration variations before and after the Emergency CARE, which was held in Indonesia during the COVID-19 pandemic on July 3-21, 2021, were studied. An air quality monitoring system based on the IoT generates sensor data that is collected from a government-integrated data portal, and that can be analyzed statistically. There are two main types of ANOVA (Analysis of Variance): one-way (or unidirectional) and two-way, which are applied to the collected sensor data and hypotheses calculated using ANOVA. ANOVA one-way was found to be more effective for analyzing air quality condition data. During emergency CARE, the average concentrations of PM10, PM2.5, and O3 from the air quality monitoring system show values that have exceeded the standard Air Quality Index (AQI), while the concentrations of CO, NO2, and SO2are still below the applicable AQI values. It stated that air pollution in Jakarta worsened during the implementation of Emergency CARE. \u00a9 2024 University of Baghdad-College of Science. All rights reserved."
+        ],
+        "abstrak":[
+            "This paper attempts to develop statistical modeling for air-conditioning analysis in Jakarta, Indonesia, during an emergency state of community activity restrictions enforcement (Emergency CARE), using a variety of parameters such as PM10, PM2.5, SO2, CO, O3, and NO2 from five IoT-based air monitoring systems. The parameters mentioned above are critical for assessing the air quality conditions and concentration of air pollutants. Outdoor air pollution concentration variations before and after the Emergency CARE, which was held in Indonesia during the COVID-19 pandemic on July 3-21, 2021, were studied. An air quality monitoring system based on the IoT generates sensor data that is collected from a government-integrated data portal, and that can be analyzed statistically. There are two main types of ANOVA (Analysis of Variance): one-way (or unidirectional) and two-way, which are applied to the collected sensor data and hypotheses calculated using ANOVA. ANOVA one-way was found to be more effective for analyzing air quality condition data. During emergency CARE, the average concentrations of PM10, PM2.5, and O3 from the air quality monitoring system show values that have exceeded the standard Air Quality Index (AQI), while the concentrations of CO, NO2, and SO2are still below the applicable AQI values. It stated that air pollution in Jakarta worsened during the implementation of Emergency CARE. \u00a9 2024 University of Baghdad-College of Science. All rights reserved."
+        ]
+    },
+    {
+        "judul":[
+            "Solid oxide fuel cell energy system with absorption-ejection refrigeration optimized using a neural network with multiple objectives"
+        ],
+        "penulis":[
+            "Hai, Taoa,b,cSend mail to Hai T.;",
+            "Alenizi, Farhan A.d;",
+            "Mohammed, Adil Husseine;",
+            "Goyal, Vishalf;",
+            "Marjan, Riyam K.g;",
+            "Quzwain, Kameliah;",
+            "Mohammed Metwally, Ahmed Sayedi"
+        ],
+        "sdgs":[
+            "The present study focuses on modeling the solid oxide fuel cell power plant combined with an absorption-ejection refrigeration cycle. First, a comparison is made between the absorption chiller refrigeration cycle and the absorption-ejection chiller to connect the superior cycle to the solid oxide fuel cell as an auxiliary cycle. Then, the solid oxide fuel cell cycle, the combustion of the output product, the heat recovery unit combined with the refrigeration cycle, and freshwater production are modeled. Next, the sensitivity analysis is presented in order to study the effect of the design parameters on objective functions, which simplifies the justification of the optimization results based on the genetic algorithm. In order to perform optimization, machine learning methods have been employed to reduce computational time and cost. The optimization of this cycle shows that the exergy efficiency is enhanced up to 68%, whereas the overall cost rate is in within 9.7\u201310.4 dollars per hour. \u00a9 2023 Hydrogen Energy Publications LLC",
+            "Sustainable Development Goals mapped to this documentAffordable and clean energyGoal 7",
+            "Sustainable Development Goals mapped to this document",
+            "PlumX metricsPlumX metrics (opens in new window)"
+        ],
+        "abstrak":[
+            "The present study focuses on modeling the solid oxide fuel cell power plant combined with an absorption-ejection refrigeration cycle. First, a comparison is made between the absorption chiller refrigeration cycle and the absorption-ejection chiller to connect the superior cycle to the solid oxide fuel cell as an auxiliary cycle. Then, the solid oxide fuel cell cycle, the combustion of the output product, the heat recovery unit combined with the refrigeration cycle, and freshwater production are modeled. Next, the sensitivity analysis is presented in order to study the effect of the design parameters on objective functions, which simplifies the justification of the optimization results based on the genetic algorithm. In order to perform optimization, machine learning methods have been employed to reduce computational time and cost. The optimization of this cycle shows that the exergy efficiency is enhanced up to 68%, whereas the overall cost rate is in within 9.7\u201310.4 dollars per hour. \u00a9 2023 Hydrogen Energy Publications LLC"
+        ]
+    },
+    {
+        "judul":[
+            "Changes in Indonesian private universities educational practices in the post COVID-19 environment"
+        ],
+        "penulis":[
+            "Anggadwita, Grisnaa,bSend mail to Anggadwita G.;",
+            "Indarti, NurulcSend mail to Indarti N.;",
+            "Ratten, VanessadSend mail to Ratten V."
+        ],
+        "sdgs":[
+            "Education was one of the sectors most significantly affected by the Covid-19 due to social distancing and home study requirements, which resulted in educational institutions changing the learning process in terms of how classes were delivered. However, whilst there were difficulties from the Covid-19 pandemic, it also resulted in a unique opportunity to implement digital transformation of the education system by bringing about positive change. As a consequence educators and students are required to be able to quickly adapt to changes in the online learning system, and educational institutions must invest and update infrastructure by developing online learning platforms that facilitate the teaching and learning process. Using the lens of Lewin's change model, this study aims to explore the effects of the Covid-19 pandemic on educational practices, educator perspectives and key determinants of readiness behavior in universities. This study uses a qualitative method by conducting semi-structured in-depth interviews with seventeen key informants who are educators in private universities in Indonesia. This study found that most educators experienced problems during online learning practices, and they realized that these changes in educational practices would continue in the post-Covid era. We also identify two key determinants of behavioural readiness for dealing with change: adaptability and engagement initiative, and innovation in educational practice that helps to understand the digitalization process caused by the Covid-19 pandemic. This study has both practical and academic implications by providing recommendations for education policy makers, practitioners and researchers on post-Covid education systems and how to deal with future crises. \u00a9 2023",
+            "Sustainable Development Goals mapped to this documentGood health and well-beingGoal 3Quality educationGoal 4Partnership for the goalsGoal 17",
+            "Sustainable Development Goals mapped to this document",
+            "PlumX metricsPlumX metrics (opens in new window)"
+        ],
+        "abstrak":[
+            "Education was one of the sectors most significantly affected by the Covid-19 due to social distancing and home study requirements, which resulted in educational institutions changing the learning process in terms of how classes were delivered. However, whilst there were difficulties from the Covid-19 pandemic, it also resulted in a unique opportunity to implement digital transformation of the education system by bringing about positive change. As a consequence educators and students are required to be able to quickly adapt to changes in the online learning system, and educational institutions must invest and update infrastructure by developing online learning platforms that facilitate the teaching and learning process. Using the lens of Lewin's change model, this study aims to explore the effects of the Covid-19 pandemic on educational practices, educator perspectives and key determinants of readiness behavior in universities. This study uses a qualitative method by conducting semi-structured in-depth interviews with seventeen key informants who are educators in private universities in Indonesia. This study found that most educators experienced problems during online learning practices, and they realized that these changes in educational practices would continue in the post-Covid era. We also identify two key determinants of behavioural readiness for dealing with change: adaptability and engagement initiative, and innovation in educational practice that helps to understand the digitalization process caused by the Covid-19 pandemic. This study has both practical and academic implications by providing recommendations for education policy makers, practitioners and researchers on post-Covid education systems and how to deal with future crises. \u00a9 2023"
+        ]
+    },
+    {
+        "judul":[
+            "Design of supply chain risk mitigation system using house of risk and Fuzzy AHP methods in precast concrete"
+        ],
+        "penulis":[
+            "Dvaipayana, Made Arya TeguhSend mail to Dvaipayana M.A.T.;",
+            "Sriwana, Iphov Kumala;",
+            "Prambudia, Yudha"
+        ],
+        "sdgs":[
+            "Today's global supply chain has many risk factors. These risks include supply disruptions, supply delays, demand fluctuations, price fluctuations, and exchange rate fluctuations. Risks that arise and cannot be mitigated properly in the supply chain can disrupt the company's business processes in various sectors. Companies in the construction sector when working on construction projects face many risks during the project cycle, especially risks in the supply chain process. Partial risk management, namely only on construction projects and not specifically on the supply chain process, causes potential risks in the supply chain process not to be identified in detail, and mitigation strategies cannot be determined effectively for risks in the supply chain. This research was conducted to identify risks and determine appropriate mitigation strategies using the house of risk as a framework and a fuzzy analytical hierarchy process weighting method to select the best mitigation strategy. The research results showed that there were 26 risk events and 21 risk agents identified, and the 5 best mitigation strategies were chosen from the 10 formulated strategies for a mitigation monitoring system. Based on research results, the best risk mitigation strategy can be used as a reference for risk mitigation actions in the company's supply chain as outlined in the form of a dashboard monitoring system. \u00a9 2024, Mercu Buana University. All rights reserved."
+        ],
+        "abstrak":[
+            "Today's global supply chain has many risk factors. These risks include supply disruptions, supply delays, demand fluctuations, price fluctuations, and exchange rate fluctuations. Risks that arise and cannot be mitigated properly in the supply chain can disrupt the company's business processes in various sectors. Companies in the construction sector when working on construction projects face many risks during the project cycle, especially risks in the supply chain process. Partial risk management, namely only on construction projects and not specifically on the supply chain process, causes potential risks in the supply chain process not to be identified in detail, and mitigation strategies cannot be determined effectively for risks in the supply chain. This research was conducted to identify risks and determine appropriate mitigation strategies using the house of risk as a framework and a fuzzy analytical hierarchy process weighting method to select the best mitigation strategy. The research results showed that there were 26 risk events and 21 risk agents identified, and the 5 best mitigation strategies were chosen from the 10 formulated strategies for a mitigation monitoring system. Based on research results, the best risk mitigation strategy can be used as a reference for risk mitigation actions in the company's supply chain as outlined in the form of a dashboard monitoring system. \u00a9 2024, Mercu Buana University. All rights reserved."
+        ]
+    },
+    {
+        "judul":[
+            "Website Quality Analysis, Trust and Loyalty of Indonesian Railway Service"
+        ],
+        "penulis":[
+            "Irsa, Mikael Julian;",
+            "Pradana, Mahir"
+        ],
+        "sdgs":[
+            "-This study intends to discover the analysis of quality websites to consumer trust and loyalty since online transaction activities are quickly increasing. The number of online clients in Indonesia grows year after year, as does the number of online shops selling different internet-based media. Opportunities for online stores are expanding, but competition is also rising. For customers to be trusted and loyal, online business owners must understand and meet their customers' desires. The study employed quantitative research methodologies, and the sample size was 100 respondents, who were analyzed using path analysis and the third edition of the SmartPLS program. Data acquired will be picked first, and unnecessary data will be removed, before being filtered and processed through data gathering; this stage is required. The analysis findings are extremely maximum in deciding the final result, and the study results indicated that all factors have a positive and substantial influence on the result, which is very nice and acceptable. \u00a9 2024, World Scientific and Engineering Academy and Society. All rights reserved.",
+            "Sustainable Development Goals mapped to this documentPartnership for the goalsGoal 17",
+            "Sustainable Development Goals mapped to this document",
+            "PlumX metricsPlumX metrics (opens in new window)"
+        ],
+        "abstrak":[
+            "-This study intends to discover the analysis of quality websites to consumer trust and loyalty since online transaction activities are quickly increasing. The number of online clients in Indonesia grows year after year, as does the number of online shops selling different internet-based media. Opportunities for online stores are expanding, but competition is also rising. For customers to be trusted and loyal, online business owners must understand and meet their customers' desires. The study employed quantitative research methodologies, and the sample size was 100 respondents, who were analyzed using path analysis and the third edition of the SmartPLS program. Data acquired will be picked first, and unnecessary data will be removed, before being filtered and processed through data gathering; this stage is required. The analysis findings are extremely maximum in deciding the final result, and the study results indicated that all factors have a positive and substantial influence on the result, which is very nice and acceptable. \u00a9 2024, World Scientific and Engineering Academy and Society. All rights reserved."
+        ]
+    },
+    {
+        "judul":[
+            "Design of monitoring and control system for temperature in tea nursery"
+        ],
+        "penulis":[
+            "Pramudita, Brahmantya AjiaSend mail to Pramudita B.A.;",
+            "Fajariadi, Muhammad FarrelaSend mail to Fajariadi M.F.;",
+            "Arifin, Mohammad AldrinaSend mail to Arifin M.A.;",
+            "Wulansari, RestubSend mail to Wulansari R.;",
+            "Rezamela, ErdiansyahbSend mail to Rezamela E.;",
+            "Cahyadi, Willy A.aSend mail to Cahyadi W.A."
+        ],
+        "sdgs":[
+            "Temperature is crucial for tea nurseries. Hence, a control and monitoring system is required to maintain the temperature in ideal conditions. However, processing temperature measurement manually causes the temperature inside the tea nursery or sungkup to change. Because when the temperature is measured, the tea nursery cover is opened, making the condition not ideal. In this study, a monitoring and control system is proposed. This system can supervise the tea nursery condition and control the temperature using two-position control method based on temperature. The temperature is measured using the SHT20 sensor. Then, a water or mist sprayer controls the temperature inside the tea nursery. The proposed system is also designed to record and collect the tea nursery condition data. The monitoring and control results show that the system can maintain the temperature in ideal condition at 13\u00b0C-25\u00b0C, corresponding the ideal condition for a tea nursery. Then, the SHT20 sensor has good accuracy, 99.72%. So, it has a minor error with the validated temperature meter. \u00a9 2024 Author(s)."
+        ],
+        "abstrak":[
+            "Temperature is crucial for tea nurseries. Hence, a control and monitoring system is required to maintain the temperature in ideal conditions. However, processing temperature measurement manually causes the temperature inside the tea nursery or sungkup to change. Because when the temperature is measured, the tea nursery cover is opened, making the condition not ideal. In this study, a monitoring and control system is proposed. This system can supervise the tea nursery condition and control the temperature using two-position control method based on temperature. The temperature is measured using the SHT20 sensor. Then, a water or mist sprayer controls the temperature inside the tea nursery. The proposed system is also designed to record and collect the tea nursery condition data. The monitoring and control results show that the system can maintain the temperature in ideal condition at 13\u00b0C-25\u00b0C, corresponding the ideal condition for a tea nursery. Then, the SHT20 sensor has good accuracy, 99.72%. So, it has a minor error with the validated temperature meter. \u00a9 2024 Author(s)."
+        ]
+    },
+    {
+        "judul":[
+            "Deep neural networks approach with transfer learning to detect fake accounts social media on Twitter"
+        ],
+        "penulis":[
+            "Lubis, Arif RidhoaSend mail to Lubis A.R.;",
+            "Prayudani, SantiaSend mail to Prayudani S.;",
+            "Hamzah, Muhammad LuthfibSend mail to Hamzah M.L.;",
+            "Lase, Yuyun YusnidaaSend mail to Lase Y.Y.;",
+            "Lubis, MuharmancSend mail to Lubis M.;",
+            "Al-KhowarizmidSend mail to Al-Khowarizmi;",
+            "Hutagalung, Gabriel ArdiaSend mail to Hutagalung G.A."
+        ],
+        "sdgs":[
+            "The massive use of social media makes people take actions that have a negative impact on cyberspace, such as creating fake accounts that aim to commit crimes such as spam and fraud to spread false information. Fake accounts are difficult to detect in the traditional way because fake accounts always use photos, names, and unreal information, there are several criteria that can identify a fake account such as no information, few followers, and minimal activity. In the traditional model, it is difficult to detect fake accounts on many Twitters social media accounts, so the application of the deep learning model with the convolutional neural network (CNN) algorithm and the application of deep learning can help detect fake accounts. This study will use data on Twitter social media so that this research produces good accuracy for the scenarios described at the methodology stage. This research produces an accuracy of 86% for the deep learning model with the CNN algorithm, and with the traditional model, it produces an accuracy of 51% while the use of transfer learning produces an accuracy of 93.9%. \u00a9 2024 Institute of Advanced Engineering and Science. All rights reserved."
+        ],
+        "abstrak":[
+            "The massive use of social media makes people take actions that have a negative impact on cyberspace, such as creating fake accounts that aim to commit crimes such as spam and fraud to spread false information. Fake accounts are difficult to detect in the traditional way because fake accounts always use photos, names, and unreal information, there are several criteria that can identify a fake account such as no information, few followers, and minimal activity. In the traditional model, it is difficult to detect fake accounts on many Twitters social media accounts, so the application of the deep learning model with the convolutional neural network (CNN) algorithm and the application of deep learning can help detect fake accounts. This study will use data on Twitter social media so that this research produces good accuracy for the scenarios described at the methodology stage. This research produces an accuracy of 86% for the deep learning model with the CNN algorithm, and with the traditional model, it produces an accuracy of 51% while the use of transfer learning produces an accuracy of 93.9%. \u00a9 2024 Institute of Advanced Engineering and Science. All rights reserved."
+        ]
+    },
+    {
+        "judul":[
+            "The role of engagement intention in mediating the relationship between brand equity and engagement behavior moderated by social media context"
+        ],
+        "penulis":[
+            "Prasetio, AdhiSend mail to Prasetio A.;",
+            "Azmi, Mufidatul"
+        ],
+        "sdgs":[
+            "The COVID-19 pandemic has brought about significant transformations in various aspects of life. Shifts in consumer behavior, for instance, can exert influence on global economic operations. This situation indirectly boosts the e-commerce sector while expediting the decline of conventional retail. Matahari Department Store is an example of a retail business adapting to this trend. Matahari, a retail company, recently shifted its focus towards online marketing. On one of its social media platforms, Matahari consistently presents engaging content. Nevertheless, this does not necessarily imply that Matahari enjoys a high level of social media engagement. This study aims to evaluate how brand equity influences engagement behavior, with engagement goals acting as a mediator, while considering social media context as a moderating factor. The research employed a quantitative approach with a causal orientation. The target population for this study comprises the followers of the Matahi Department Store Instagram account. The sampling method employed was purposive, indicating that the sample was selected based on specific criteria. Data collection was conducted through the online distribution of questionnaires using Google Forms. The collected data was analyzed through the utilization of SMART PLS 3.0 software employing the Structural Equation Modeling (SEM) method. As per the research results, brand equity is influenced through engagement intention and exhibits a positive and statistically significant impact on both consumption and donation behavior. Additionally, the connection between intention to be involved and behavior in consumption is affected by media richness. \u00a9 2024 by the authors; licensee Growing Science, Canada.",
+            "PlumX metricsPlumX metrics (opens in new window)"
+        ],
+        "abstrak":[
+            "The COVID-19 pandemic has brought about significant transformations in various aspects of life. Shifts in consumer behavior, for instance, can exert influence on global economic operations. This situation indirectly boosts the e-commerce sector while expediting the decline of conventional retail. Matahari Department Store is an example of a retail business adapting to this trend. Matahari, a retail company, recently shifted its focus towards online marketing. On one of its social media platforms, Matahari consistently presents engaging content. Nevertheless, this does not necessarily imply that Matahari enjoys a high level of social media engagement. This study aims to evaluate how brand equity influences engagement behavior, with engagement goals acting as a mediator, while considering social media context as a moderating factor. The research employed a quantitative approach with a causal orientation. The target population for this study comprises the followers of the Matahi Department Store Instagram account. The sampling method employed was purposive, indicating that the sample was selected based on specific criteria. Data collection was conducted through the online distribution of questionnaires using Google Forms. The collected data was analyzed through the utilization of SMART PLS 3.0 software employing the Structural Equation Modeling (SEM) method. As per the research results, brand equity is influenced through engagement intention and exhibits a positive and statistically significant impact on both consumption and donation behavior. Additionally, the connection between intention to be involved and behavior in consumption is affected by media richness. \u00a9 2024 by the authors; licensee Growing Science, Canada."
+        ]
+    },
+    {
+        "judul":[
+            "Sustainable business model innovation: external and internal factors on SMEs"
+        ],
+        "penulis":[
+            "Utaminingsih, AdijatiSend mail to Utaminingsih A.;",
+            "Widowati, Sri YuniSend mail to Widowati S.Y.;",
+            "Witjaksono, E.H.Send mail to Witjaksono E.H."
+        ],
+        "sdgs":[
+            "Purpose: This study aims to analyze the internal and external factors of the acceptance of small and medium enterprises (SMEs) to implemented sustainable business model innovations (SBMI) that depend on external factors, dynamic performance expectancy, facilitating conditions, social influence, effort expectancy, hedonic motivation and factor internal speed. Design\/methodology\/approach: This is a quantitative method research project conducted through a survey of SMEs in Semarang, Central Java, from February to June 2021. SMEs that have been operated to sustainable business were chosen purposively as samples. Based on the requirement, there are 220 entities used in this study. Data analysis was conducted by using Structural Equation Model. Findings: The results of this study provide empirical support that the factors studied affect the acceptance of SME business actors toward the implementation of SBMI. The application of this SBMI is used to design and implement a sustainable business model for SME businesses. This study has identified, explained and empirically supported the behavioral structures (composites and factors) that influence the adoption of SBMIs that are commonly available for business modeling. Research limitations\/implications: The main limitation of this research is the static view of the structure (construction) that influences the use or application of SBMI by SME actors which often changes over time, experience and failure. Originality\/value: This study supports the execution of sustainable innovation initiatives that have yet to be investigated at the strategic, operational and tactical levels. This is especially true when beginning a firm, because entrepreneurs encounter uncertainty while putting their plans into action at one of three levels: strategic, operational or tactical. \u00a9 2023, Emerald Publishing Limited.",
+            "PlumX metricsPlumX metrics (opens in new window)"
+        ],
+        "abstrak":[
+            "Purpose: This study aims to analyze the internal and external factors of the acceptance of small and medium enterprises (SMEs) to implemented sustainable business model innovations (SBMI) that depend on external factors, dynamic performance expectancy, facilitating conditions, social influence, effort expectancy, hedonic motivation and factor internal speed. Design\/methodology\/approach: This is a quantitative method research project conducted through a survey of SMEs in Semarang, Central Java, from February to June 2021. SMEs that have been operated to sustainable business were chosen purposively as samples. Based on the requirement, there are 220 entities used in this study. Data analysis was conducted by using Structural Equation Model. Findings: The results of this study provide empirical support that the factors studied affect the acceptance of SME business actors toward the implementation of SBMI. The application of this SBMI is used to design and implement a sustainable business model for SME businesses. This study has identified, explained and empirically supported the behavioral structures (composites and factors) that influence the adoption of SBMIs that are commonly available for business modeling. Research limitations\/implications: The main limitation of this research is the static view of the structure (construction) that influences the use or application of SBMI by SME actors which often changes over time, experience and failure. Originality\/value: This study supports the execution of sustainable innovation initiatives that have yet to be investigated at the strategic, operational and tactical levels. This is especially true when beginning a firm, because entrepreneurs encounter uncertainty while putting their plans into action at one of three levels: strategic, operational or tactical. \u00a9 2023, Emerald Publishing Limited."
+        ]
+    },
+    {
+        "judul":[
+            "AI in Indian Libraries: Prospects and Perceptions from Library Professionals"
+        ],
+        "penulis":[
+            "Subaveerapandiyan A.aSend mail to Subaveerapandiyan A.;",
+            "Gozali, Alfian Akbarb"
+        ],
+        "sdgs":[
+            "This study explores the perspectives of Indian library professionals on the use of artificial intelligence (AI) in libraries. It aims to understand their knowledge, awareness, and views on AI and its challenges and opportunities. The research adopts a quantitative approach, using a closed-ended survey to collect data from 386 library professionals in academic institutions across India. The survey covers various aspects, including socio-demographic information, AI knowledge, perspectives on AI in libraries, ethical considerations, and adopting AI tools and services. The findings indicate that Indian library professionals are generally aware of AI and its potential benefits in libraries. They believe that AI can enhance library activities, improve accessibility, and support decision-making. However, there are concerns about AI replacing human intelligence within libraries. Factors such as user privacy, funding, staff expertise, and alignment with institutional goals are essential when implementing AI applications. Ethical considerations, including bias and discrimination, intellectual freedom, and transparency, are also significant concerns. AI tools like smart shelving and optical character recognition are among the technologies already adopted in Indian libraries. \u00a9 2024 the author(s), published by De Gruyter.",
+            "Sustainable Development Goals mapped to this documentPartnership for the goalsGoal 17",
+            "Sustainable Development Goals mapped to this document",
+            "PlumX metricsPlumX metrics (opens in new window)"
+        ],
+        "abstrak":[
+            "This study explores the perspectives of Indian library professionals on the use of artificial intelligence (AI) in libraries. It aims to understand their knowledge, awareness, and views on AI and its challenges and opportunities. The research adopts a quantitative approach, using a closed-ended survey to collect data from 386 library professionals in academic institutions across India. The survey covers various aspects, including socio-demographic information, AI knowledge, perspectives on AI in libraries, ethical considerations, and adopting AI tools and services. The findings indicate that Indian library professionals are generally aware of AI and its potential benefits in libraries. They believe that AI can enhance library activities, improve accessibility, and support decision-making. However, there are concerns about AI replacing human intelligence within libraries. Factors such as user privacy, funding, staff expertise, and alignment with institutional goals are essential when implementing AI applications. Ethical considerations, including bias and discrimination, intellectual freedom, and transparency, are also significant concerns. AI tools like smart shelving and optical character recognition are among the technologies already adopted in Indian libraries. \u00a9 2024 the author(s), published by De Gruyter."
+        ]
+    },
+    {
+        "judul":[
+            "E-Supply Chain Management Readiness Analysis by Using the Smart Industry Readiness Index (Case Study: Pt Kuliner Dapur Bersama)"
+        ],
+        "penulis":[
+            "Sari, Indah MekarSend mail to Sari I.M.;",
+            "Tricahyono, DodieSend mail to Tricahyono D.;",
+            "Indiyati, DianSend mail to Indiyati D."
+        ],
+        "sdgs":[
+            "Technological developments are increasingly rapid with the industrial revolution 4.0, encouraging all sectors to carry out digital transformation to increase productivity, business efficiency, and competitiveness. E-SCM, or electronic supply chain management, is one of the digital transformations brought about by the transition from analog to digital processes. This research aims to determine the level of industry and readiness factors for adopting E-SCM technology. This research used the Smart Industry Readiness Index (SIRI) and applied Analytical Hierarchy Process (AHP) methods to analyze the data. This study falls under the category of quantitative research, using a questionnaire as the data-gathering technique. The results of the readiness level assessment obtained a value of 1.52, indicating the readiness level of PT. Kuliner Dapur Bersama is at level 1 (New Comer). Furthermore, the result of the first level of readiness measurement is training (0.229). Based on this level of readiness, it is known the level of the company in the FnB industry and the priority of the company's readiness to increase competitiveness towards industrial revolution 4.0. \u00a9 2024, SRAC - Romanian Society for Quality. All rights reserved.",
+            "Sustainable Development Goals mapped to this documentIndustry, innovation and infrastructureGoal 9",
+            "Sustainable Development Goals mapped to this document",
+            "PlumX metricsPlumX metrics (opens in new window)"
+        ],
+        "abstrak":[
+            "Technological developments are increasingly rapid with the industrial revolution 4.0, encouraging all sectors to carry out digital transformation to increase productivity, business efficiency, and competitiveness. E-SCM, or electronic supply chain management, is one of the digital transformations brought about by the transition from analog to digital processes. This research aims to determine the level of industry and readiness factors for adopting E-SCM technology. This research used the Smart Industry Readiness Index (SIRI) and applied Analytical Hierarchy Process (AHP) methods to analyze the data. This study falls under the category of quantitative research, using a questionnaire as the data-gathering technique. The results of the readiness level assessment obtained a value of 1.52, indicating the readiness level of PT. Kuliner Dapur Bersama is at level 1 (New Comer). Furthermore, the result of the first level of readiness measurement is training (0.229). Based on this level of readiness, it is known the level of the company in the FnB industry and the priority of the company's readiness to increase competitiveness towards industrial revolution 4.0. \u00a9 2024, SRAC - Romanian Society for Quality. All rights reserved."
+        ]
+    },
+    {
+        "judul":[
+            "Characteristics of pulsating heat pipe with variation of tube diameter, filling ratio, and SiO2nanoparticles: Biomedical and engineering implications"
+        ],
+        "penulis":[
+            "Babu E.R.aSend mail to Babu E.R.;",
+            "Reddy, Nagaraja C.aSend mail to Reddy N.C.;",
+            "Babbar, AtulbSend mail to Babbar A.;",
+            "Chandrashekar A.cSend mail to Chandrashekar A.;",
+            "Kumar, RamandSend mail to Kumar R.;",
+            "Bains, Pardeep Singhe,fSend mail to Bains P.S.;",
+            "Alsubih, MajedgSend mail to Alsubih M.;",
+            "Islam, SaifulgSend mail to Islam S.;",
+            "Joshi, Sanjeev KumarhSend mail to Joshi S.K.;",
+            "Rizal, AchmadiSend mail to Rizal A.;",
+            "Ammarullah, Muhammad Imamj,k,lSend mail to Ammarullah M.I."
+        ],
+        "sdgs":[
+            "Pulsating heat pipe (PHP) is an implicit technique through a passive two-stage heat transfer system. This paper presents the experimentations on PHP contrived using copper with different inner tube diameters of 1, 1.5, 2, and 2.5 mm, respectively. The PHP is accused of acetone as a functional liquid with filling proportions varying from 50 to 90% of its volume with an increment of 10%. The effects of filling proportion and tube diameter on the thermal performance of PHP were investigated. The evaporator zone is electrically heated using a mica heater in the range of 20\u201380 W, and the condenser area is kept cool by the water circulation method. The results show that a 2 mm inner tube diameter performs best compared to other tube diameters, with a lower rate of thermal resistance of 0.49 K\/W. Also, the performance of PHP is enhanced at a filling proportion of 60% for all the tube diameters. Further, CFD analysis was carried out for different filling ratios for a 2 mm diameter pipe at a constant heat input of 80 W, and it revealed that test outcomes were in line with CFD results. The deviation between the experimental and numerical studies was 10%. Considering the optimized parameters, i.e., tube diameter and filling ratio, the work was extended by adding SiO2nanoparticles to the base fluid with 1\u20135 % mass concentration. The results showed a lower thermal resistance value of 0.3 W\/K and a higher heat transfer coefficient of 828.64 W\/m2\u00b0K was obtained at 2% mass concentration of SiO2. Also, the proportional rise in heat transfer coefficient at 60 W is 11.46, 17, 14, 4.15, and 1.94% for 1, 2, 3, 4, and 5% mass concentration of SiO2nanoparticles, respectively. Hence, the PHP operates better at a 2 mm diameter with a 60% filling ratio and 2% mass concentration of SiO2nanoparticles. \u00a9 2024 The Authors"
+        ],
+        "abstrak":[
+            "Pulsating heat pipe (PHP) is an implicit technique through a passive two-stage heat transfer system. This paper presents the experimentations on PHP contrived using copper with different inner tube diameters of 1, 1.5, 2, and 2.5 mm, respectively. The PHP is accused of acetone as a functional liquid with filling proportions varying from 50 to 90% of its volume with an increment of 10%. The effects of filling proportion and tube diameter on the thermal performance of PHP were investigated. The evaporator zone is electrically heated using a mica heater in the range of 20\u201380 W, and the condenser area is kept cool by the water circulation method. The results show that a 2 mm inner tube diameter performs best compared to other tube diameters, with a lower rate of thermal resistance of 0.49 K\/W. Also, the performance of PHP is enhanced at a filling proportion of 60% for all the tube diameters. Further, CFD analysis was carried out for different filling ratios for a 2 mm diameter pipe at a constant heat input of 80 W, and it revealed that test outcomes were in line with CFD results. The deviation between the experimental and numerical studies was 10%. Considering the optimized parameters, i.e., tube diameter and filling ratio, the work was extended by adding SiO2nanoparticles to the base fluid with 1\u20135 % mass concentration. The results showed a lower thermal resistance value of 0.3 W\/K and a higher heat transfer coefficient of 828.64 W\/m2\u00b0K was obtained at 2% mass concentration of SiO2. Also, the proportional rise in heat transfer coefficient at 60 W is 11.46, 17, 14, 4.15, and 1.94% for 1, 2, 3, 4, and 5% mass concentration of SiO2nanoparticles, respectively. Hence, the PHP operates better at a 2 mm diameter with a 60% filling ratio and 2% mass concentration of SiO2nanoparticles. \u00a9 2024 The Authors"
+        ]
+    },
+    {
+        "judul":[
+            "Implementation and Benchmarking of Kubernetes Horizontal Pod Autoscaling Method to Event-Driven Messaging System"
+        ],
+        "penulis":[
+            "Pilyai, XavieraSend mail to Pilyai X.;",
+            "Irsyad, Rafsanjani Nurula;",
+            "Zaini, Ikhwan Nashira;",
+            "Negara, Ridha MuldinaaSend mail to Negara R.M.;",
+            "Hertiana, Sofia Naninga;",
+            "Tulloh, Rohmatb"
+        ],
+        "sdgs":[
+            "The rapid development of technology is accompanied by a large number of demands and users. One of the solutions is to create reliable infrastructure that can support application performance. Kubernetes is a platform which offers one of the solutions by providing container application orchestration and enabling high availability and scalability through various automatic scaling mechanisms such as Horizontal Pod Autoscaler (HPA), which dynamically scales the number of pod resources without restarting the entire system. By default, Kubernetes only monitors built-in resource metrics such as CPU and memory usage for each host machine and pod. To use Custom Metrics, external software such as Prometheus can be employed to monitor metrics as needed. On the other hand, Kubernetes Event-driven Autoscaling (KEDA) software offers a solution to simplify and facilitate autoscaling by efficiently implementing event-based automatic scaling and achieving the scale-to-zero capability. In this paper, we investigate the performance of autoscaling through various experiments to understand the behavior of each custom metrics autoscaling solution. \u00a9 The Author(s), under exclusive license to Springer Nature Switzerland AG 2024.",
+            "Sustainable Development Goals mapped to this documentIndustry, innovation and infrastructureGoal 9",
+            "Sustainable Development Goals mapped to this document",
+            "PlumX metricsPlumX metrics (opens in new window)"
+        ],
+        "abstrak":[
+            "The rapid development of technology is accompanied by a large number of demands and users. One of the solutions is to create reliable infrastructure that can support application performance. Kubernetes is a platform which offers one of the solutions by providing container application orchestration and enabling high availability and scalability through various automatic scaling mechanisms such as Horizontal Pod Autoscaler (HPA), which dynamically scales the number of pod resources without restarting the entire system. By default, Kubernetes only monitors built-in resource metrics such as CPU and memory usage for each host machine and pod. To use Custom Metrics, external software such as Prometheus can be employed to monitor metrics as needed. On the other hand, Kubernetes Event-driven Autoscaling (KEDA) software offers a solution to simplify and facilitate autoscaling by efficiently implementing event-based automatic scaling and achieving the scale-to-zero capability. In this paper, we investigate the performance of autoscaling through various experiments to understand the behavior of each custom metrics autoscaling solution. \u00a9 The Author(s), under exclusive license to Springer Nature Switzerland AG 2024."
+        ]
+    },
+    {
+        "judul":[
+            "Determinant factors of lean start-up-based incubation metrics on post-incubation start-up viability: case-based study"
+        ],
+        "penulis":[
+            "Tritoasmoro, Iwan Iwuta,cSend mail to Tritoasmoro I.I.;",
+            "Ciptomulyono, UdisubaktiaSend mail to Ciptomulyono U.;",
+            "Dhewanto, WawanbSend mail to Dhewanto W.;",
+            "Taufik, Tatang AkhmadaSend mail to Taufik T.A."
+        ],
+        "sdgs":[
+            "Purpose: This paper aims to investigate the effect of business incubation metrics based on an adaptation of the lean start-up (LS) framework on start-up survival after incubation. This study also analyzes the obstacles in implementing the LS framework as incubation metrics. Design\/methodology\/approach: This study uses mixed methods. Quantitative research using multiple linear regression was applied to the data of 30 start-ups incubated at Bandung Techno Park for the 2014\u20132017 period and survival tracking data after the incubation. A qualitative approach to complete the explanatory work was conducted through in-depth interviews with 12 respondents, including start-up graduates from the incubation program, program managers and mentors. Findings: This study confirms that several LS incubation metrics significantly affect start-up sustainability after incubation. In addition, this study also explains several problems in applying the LS discipline that needs attention to increase incubation success. Research limitations\/implications: Research was conducted only at one technology business incubator (TBI) model that focuses on digital start-ups in the emerging ecosystem. Research results can be biased in different situations and ecosystems. Practical implications: The explanation of the relationship of LS-based incubation metrics to the survival of start-ups, as well as the challenges of their implementation, can be a reference for TBI management to consider and prioritize intervention strategies, thereby improving TBI\u2019s business processes and increasing the success rate of incubated start-ups. Social implications: The creation of university start-ups and spin-offs has become a key performance indicator mandatory for technology universities in Indonesia. The existence of TBI institutions in universities as channels of technology commercialization is essential. The incubator\u2019s success in creating a new technology-based company will have a significant social impact on the surrounding environment. Originality\/value: Although the LS method is popular in start-up communities and among practitioners, it is rarely used in the incubation process at universities. These results can be considered for university TBIs to explore LS as an incubation management tool to increase the success rate of incubated start-ups. \u00a9 2022, Emerald Publishing Limited.",
+            "Sustainable Development Goals mapped to this documentQuality educationGoal 4Partnership for the goalsGoal 17",
+            "Sustainable Development Goals mapped to this document",
+            "PlumX metricsPlumX metrics (opens in new window)"
+        ],
+        "abstrak":[
+            "Purpose: This paper aims to investigate the effect of business incubation metrics based on an adaptation of the lean start-up (LS) framework on start-up survival after incubation. This study also analyzes the obstacles in implementing the LS framework as incubation metrics. Design\/methodology\/approach: This study uses mixed methods. Quantitative research using multiple linear regression was applied to the data of 30 start-ups incubated at Bandung Techno Park for the 2014\u20132017 period and survival tracking data after the incubation. A qualitative approach to complete the explanatory work was conducted through in-depth interviews with 12 respondents, including start-up graduates from the incubation program, program managers and mentors. Findings: This study confirms that several LS incubation metrics significantly affect start-up sustainability after incubation. In addition, this study also explains several problems in applying the LS discipline that needs attention to increase incubation success. Research limitations\/implications: Research was conducted only at one technology business incubator (TBI) model that focuses on digital start-ups in the emerging ecosystem. Research results can be biased in different situations and ecosystems. Practical implications: The explanation of the relationship of LS-based incubation metrics to the survival of start-ups, as well as the challenges of their implementation, can be a reference for TBI management to consider and prioritize intervention strategies, thereby improving TBI\u2019s business processes and increasing the success rate of incubated start-ups. Social implications: The creation of university start-ups and spin-offs has become a key performance indicator mandatory for technology universities in Indonesia. The existence of TBI institutions in universities as channels of technology commercialization is essential. The incubator\u2019s success in creating a new technology-based company will have a significant social impact on the surrounding environment. Originality\/value: Although the LS method is popular in start-up communities and among practitioners, it is rarely used in the incubation process at universities. These results can be considered for university TBIs to explore LS as an incubation management tool to increase the success rate of incubated start-ups. \u00a9 2022, Emerald Publishing Limited."
+        ]
+    },
+    {
+        "judul":[
+            "Website Quality Analysis, Trust and Loyalty of Indonesian Railway Service"
+        ],
+        "penulis":[
+            "Irsa, Mikael Julian;",
+            "Pradana, Mahir"
+        ],
+        "sdgs":[
+            "-This study intends to discover the analysis of quality websites to consumer trust and loyalty since online transaction activities are quickly increasing. The number of online clients in Indonesia grows year after year, as does the number of online shops selling different internet-based media. Opportunities for online stores are expanding, but competition is also rising. For customers to be trusted and loyal, online business owners must understand and meet their customers' desires. The study employed quantitative research methodologies, and the sample size was 100 respondents, who were analyzed using path analysis and the third edition of the SmartPLS program. Data acquired will be picked first, and unnecessary data will be removed, before being filtered and processed through data gathering; this stage is required. The analysis findings are extremely maximum in deciding the final result, and the study results indicated that all factors have a positive and substantial influence on the result, which is very nice and acceptable. \u00a9 2024, World Scientific and Engineering Academy and Society. All rights reserved.",
+            "Sustainable Development Goals mapped to this documentPartnership for the goalsGoal 17",
+            "Sustainable Development Goals mapped to this document",
+            "PlumX metricsPlumX metrics (opens in new window)"
+        ],
+        "abstrak":[
+            "-This study intends to discover the analysis of quality websites to consumer trust and loyalty since online transaction activities are quickly increasing. The number of online clients in Indonesia grows year after year, as does the number of online shops selling different internet-based media. Opportunities for online stores are expanding, but competition is also rising. For customers to be trusted and loyal, online business owners must understand and meet their customers' desires. The study employed quantitative research methodologies, and the sample size was 100 respondents, who were analyzed using path analysis and the third edition of the SmartPLS program. Data acquired will be picked first, and unnecessary data will be removed, before being filtered and processed through data gathering; this stage is required. The analysis findings are extremely maximum in deciding the final result, and the study results indicated that all factors have a positive and substantial influence on the result, which is very nice and acceptable. \u00a9 2024, World Scientific and Engineering Academy and Society. All rights reserved."
+        ]
+    },
+    {
+        "judul":[
+            "A Comprehensive Bibliometric Analysis of Missing Value Imputation"
+        ],
+        "penulis":[
+            "Nugroho, Herua,bSend mail to Nugroho H.;",
+            "Surendro, Kridantoa"
+        ],
+        "sdgs":[
+            "Data quality plays a crucial role in tasks, such as enhancing the accuracy of data analytics and avoiding the accumulation of redundant data. One of the significant challenges in data quality is dealing with missing data, which has been extensively explored by the scholarly community and has resulted in a significant increase in related publications. It is important to recognize that the landscape of missing data in computer science offers numerous opportunities for further research. However, upon closer examination of existing studies, it becomes evident that many have not fully utilized bibliometric analysis tools and software for comprehensive literature reviews. Therefore, this study aims to explore the essential characteristics, trends, and prevailing themes in the field of missing data imputation. Through a thorough bibliometric analysis, this study demonstrated the evolution of knowledge and key focal points in the field of missing data imputation. The analysis consisted of 352 journal papers in computer science published between 2012 and 2023, all centered on missing data imputation. Among these publications, 'IEEE Access' has become a highly respected source. To systematically explore various aspects of missing data imputation, a conceptual framework was used to uncover potential research directions and underlying themes. Ultimately, a thematic map serves as a valuable tool for providing a comprehensive understanding, categorizing significant concepts into basic or overarching, developing, or declining, central, highly developed, and isolated themes. These overarching and underlying themes offer valuable insights and pave the way for prospective directions and critical areas of study.  \u00a9 2013 IEEE."
+        ],
+        "abstrak":[
+            "Data quality plays a crucial role in tasks, such as enhancing the accuracy of data analytics and avoiding the accumulation of redundant data. One of the significant challenges in data quality is dealing with missing data, which has been extensively explored by the scholarly community and has resulted in a significant increase in related publications. It is important to recognize that the landscape of missing data in computer science offers numerous opportunities for further research. However, upon closer examination of existing studies, it becomes evident that many have not fully utilized bibliometric analysis tools and software for comprehensive literature reviews. Therefore, this study aims to explore the essential characteristics, trends, and prevailing themes in the field of missing data imputation. Through a thorough bibliometric analysis, this study demonstrated the evolution of knowledge and key focal points in the field of missing data imputation. The analysis consisted of 352 journal papers in computer science published between 2012 and 2023, all centered on missing data imputation. Among these publications, 'IEEE Access' has become a highly respected source. To systematically explore various aspects of missing data imputation, a conceptual framework was used to uncover potential research directions and underlying themes. Ultimately, a thematic map serves as a valuable tool for providing a comprehensive understanding, categorizing significant concepts into basic or overarching, developing, or declining, central, highly developed, and isolated themes. These overarching and underlying themes offer valuable insights and pave the way for prospective directions and critical areas of study.  \u00a9 2013 IEEE."
+        ]
+    },
+    {
+        "judul":[
+            "Air Quality Analysis of the Capitol City in Developing Countries During COVID-19 Emergency Care Based on Internet of Things Data"
+        ],
+        "penulis":[
+            "Arin, Ikrar Adinataa,bSend mail to Arin I.A.;",
+            "Ramadhan, Ariefc;",
+            "Abdurachman, Edia;",
+            "Trisetyarso, Agunga;",
+            "Zarlis, Muhammada"
+        ],
+        "sdgs":[
+            "This paper attempts to develop statistical modeling for air-conditioning analysis in Jakarta, Indonesia, during an emergency state of community activity restrictions enforcement (Emergency CARE), using a variety of parameters such as PM10, PM2.5, SO2, CO, O3, and NO2 from five IoT-based air monitoring systems. The parameters mentioned above are critical for assessing the air quality conditions and concentration of air pollutants. Outdoor air pollution concentration variations before and after the Emergency CARE, which was held in Indonesia during the COVID-19 pandemic on July 3-21, 2021, were studied. An air quality monitoring system based on the IoT generates sensor data that is collected from a government-integrated data portal, and that can be analyzed statistically. There are two main types of ANOVA (Analysis of Variance): one-way (or unidirectional) and two-way, which are applied to the collected sensor data and hypotheses calculated using ANOVA. ANOVA one-way was found to be more effective for analyzing air quality condition data. During emergency CARE, the average concentrations of PM10, PM2.5, and O3 from the air quality monitoring system show values that have exceeded the standard Air Quality Index (AQI), while the concentrations of CO, NO2, and SO2are still below the applicable AQI values. It stated that air pollution in Jakarta worsened during the implementation of Emergency CARE. \u00a9 2024 University of Baghdad-College of Science. All rights reserved."
+        ],
+        "abstrak":[
+            "This paper attempts to develop statistical modeling for air-conditioning analysis in Jakarta, Indonesia, during an emergency state of community activity restrictions enforcement (Emergency CARE), using a variety of parameters such as PM10, PM2.5, SO2, CO, O3, and NO2 from five IoT-based air monitoring systems. The parameters mentioned above are critical for assessing the air quality conditions and concentration of air pollutants. Outdoor air pollution concentration variations before and after the Emergency CARE, which was held in Indonesia during the COVID-19 pandemic on July 3-21, 2021, were studied. An air quality monitoring system based on the IoT generates sensor data that is collected from a government-integrated data portal, and that can be analyzed statistically. There are two main types of ANOVA (Analysis of Variance): one-way (or unidirectional) and two-way, which are applied to the collected sensor data and hypotheses calculated using ANOVA. ANOVA one-way was found to be more effective for analyzing air quality condition data. During emergency CARE, the average concentrations of PM10, PM2.5, and O3 from the air quality monitoring system show values that have exceeded the standard Air Quality Index (AQI), while the concentrations of CO, NO2, and SO2are still below the applicable AQI values. It stated that air pollution in Jakarta worsened during the implementation of Emergency CARE. \u00a9 2024 University of Baghdad-College of Science. All rights reserved."
+        ]
+    },
+    {
+        "judul":[
+            "Deep neural networks approach with transfer learning to detect fake accounts social media on Twitter"
+        ],
+        "penulis":[
+            "Lubis, Arif RidhoaSend mail to Lubis A.R.;",
+            "Prayudani, SantiaSend mail to Prayudani S.;",
+            "Hamzah, Muhammad LuthfibSend mail to Hamzah M.L.;",
+            "Lase, Yuyun YusnidaaSend mail to Lase Y.Y.;",
+            "Lubis, MuharmancSend mail to Lubis M.;",
+            "Al-KhowarizmidSend mail to Al-Khowarizmi;",
+            "Hutagalung, Gabriel ArdiaSend mail to Hutagalung G.A."
+        ],
+        "sdgs":[
+            "The massive use of social media makes people take actions that have a negative impact on cyberspace, such as creating fake accounts that aim to commit crimes such as spam and fraud to spread false information. Fake accounts are difficult to detect in the traditional way because fake accounts always use photos, names, and unreal information, there are several criteria that can identify a fake account such as no information, few followers, and minimal activity. In the traditional model, it is difficult to detect fake accounts on many Twitters social media accounts, so the application of the deep learning model with the convolutional neural network (CNN) algorithm and the application of deep learning can help detect fake accounts. This study will use data on Twitter social media so that this research produces good accuracy for the scenarios described at the methodology stage. This research produces an accuracy of 86% for the deep learning model with the CNN algorithm, and with the traditional model, it produces an accuracy of 51% while the use of transfer learning produces an accuracy of 93.9%. \u00a9 2024 Institute of Advanced Engineering and Science. All rights reserved."
+        ],
+        "abstrak":[
+            "The massive use of social media makes people take actions that have a negative impact on cyberspace, such as creating fake accounts that aim to commit crimes such as spam and fraud to spread false information. Fake accounts are difficult to detect in the traditional way because fake accounts always use photos, names, and unreal information, there are several criteria that can identify a fake account such as no information, few followers, and minimal activity. In the traditional model, it is difficult to detect fake accounts on many Twitters social media accounts, so the application of the deep learning model with the convolutional neural network (CNN) algorithm and the application of deep learning can help detect fake accounts. This study will use data on Twitter social media so that this research produces good accuracy for the scenarios described at the methodology stage. This research produces an accuracy of 86% for the deep learning model with the CNN algorithm, and with the traditional model, it produces an accuracy of 51% while the use of transfer learning produces an accuracy of 93.9%. \u00a9 2024 Institute of Advanced Engineering and Science. All rights reserved."
+        ]
+    },
+    {
+        "judul":[
+            "Changes in Indonesian private universities educational practices in the post COVID-19 environment"
+        ],
+        "penulis":[
+            "Anggadwita, Grisnaa,bSend mail to Anggadwita G.;",
+            "Indarti, NurulcSend mail to Indarti N.;",
+            "Ratten, VanessadSend mail to Ratten V."
+        ],
+        "sdgs":[
+            "Education was one of the sectors most significantly affected by the Covid-19 due to social distancing and home study requirements, which resulted in educational institutions changing the learning process in terms of how classes were delivered. However, whilst there were difficulties from the Covid-19 pandemic, it also resulted in a unique opportunity to implement digital transformation of the education system by bringing about positive change. As a consequence educators and students are required to be able to quickly adapt to changes in the online learning system, and educational institutions must invest and update infrastructure by developing online learning platforms that facilitate the teaching and learning process. Using the lens of Lewin's change model, this study aims to explore the effects of the Covid-19 pandemic on educational practices, educator perspectives and key determinants of readiness behavior in universities. This study uses a qualitative method by conducting semi-structured in-depth interviews with seventeen key informants who are educators in private universities in Indonesia. This study found that most educators experienced problems during online learning practices, and they realized that these changes in educational practices would continue in the post-Covid era. We also identify two key determinants of behavioural readiness for dealing with change: adaptability and engagement initiative, and innovation in educational practice that helps to understand the digitalization process caused by the Covid-19 pandemic. This study has both practical and academic implications by providing recommendations for education policy makers, practitioners and researchers on post-Covid education systems and how to deal with future crises. \u00a9 2023",
+            "Sustainable Development Goals mapped to this documentGood health and well-beingGoal 3Quality educationGoal 4Partnership for the goalsGoal 17",
+            "Sustainable Development Goals mapped to this document",
+            "PlumX metricsPlumX metrics (opens in new window)"
+        ],
+        "abstrak":[
+            "Education was one of the sectors most significantly affected by the Covid-19 due to social distancing and home study requirements, which resulted in educational institutions changing the learning process in terms of how classes were delivered. However, whilst there were difficulties from the Covid-19 pandemic, it also resulted in a unique opportunity to implement digital transformation of the education system by bringing about positive change. As a consequence educators and students are required to be able to quickly adapt to changes in the online learning system, and educational institutions must invest and update infrastructure by developing online learning platforms that facilitate the teaching and learning process. Using the lens of Lewin's change model, this study aims to explore the effects of the Covid-19 pandemic on educational practices, educator perspectives and key determinants of readiness behavior in universities. This study uses a qualitative method by conducting semi-structured in-depth interviews with seventeen key informants who are educators in private universities in Indonesia. This study found that most educators experienced problems during online learning practices, and they realized that these changes in educational practices would continue in the post-Covid era. We also identify two key determinants of behavioural readiness for dealing with change: adaptability and engagement initiative, and innovation in educational practice that helps to understand the digitalization process caused by the Covid-19 pandemic. This study has both practical and academic implications by providing recommendations for education policy makers, practitioners and researchers on post-Covid education systems and how to deal with future crises. \u00a9 2023"
+        ]
+    },
+    {
+        "judul":[
+            "Website Quality Analysis, Trust and Loyalty of Indonesian Railway Service"
+        ],
+        "penulis":[
+            "Irsa, Mikael Julian;",
+            "Pradana, Mahir"
+        ],
+        "sdgs":[
+            "-This study intends to discover the analysis of quality websites to consumer trust and loyalty since online transaction activities are quickly increasing. The number of online clients in Indonesia grows year after year, as does the number of online shops selling different internet-based media. Opportunities for online stores are expanding, but competition is also rising. For customers to be trusted and loyal, online business owners must understand and meet their customers' desires. The study employed quantitative research methodologies, and the sample size was 100 respondents, who were analyzed using path analysis and the third edition of the SmartPLS program. Data acquired will be picked first, and unnecessary data will be removed, before being filtered and processed through data gathering; this stage is required. The analysis findings are extremely maximum in deciding the final result, and the study results indicated that all factors have a positive and substantial influence on the result, which is very nice and acceptable. \u00a9 2024, World Scientific and Engineering Academy and Society. All rights reserved.",
+            "Sustainable Development Goals mapped to this documentPartnership for the goalsGoal 17",
+            "Sustainable Development Goals mapped to this document",
+            "PlumX metricsPlumX metrics (opens in new window)"
+        ],
+        "abstrak":[
+            "-This study intends to discover the analysis of quality websites to consumer trust and loyalty since online transaction activities are quickly increasing. The number of online clients in Indonesia grows year after year, as does the number of online shops selling different internet-based media. Opportunities for online stores are expanding, but competition is also rising. For customers to be trusted and loyal, online business owners must understand and meet their customers' desires. The study employed quantitative research methodologies, and the sample size was 100 respondents, who were analyzed using path analysis and the third edition of the SmartPLS program. Data acquired will be picked first, and unnecessary data will be removed, before being filtered and processed through data gathering; this stage is required. The analysis findings are extremely maximum in deciding the final result, and the study results indicated that all factors have a positive and substantial influence on the result, which is very nice and acceptable. \u00a9 2024, World Scientific and Engineering Academy and Society. All rights reserved."
+        ]
+    },
+    {
+        "judul":[
+            "Design of monitoring and control system for temperature in tea nursery"
+        ],
+        "penulis":[
+            "Pramudita, Brahmantya AjiaSend mail to Pramudita B.A.;",
+            "Fajariadi, Muhammad FarrelaSend mail to Fajariadi M.F.;",
+            "Arifin, Mohammad AldrinaSend mail to Arifin M.A.;",
+            "Wulansari, RestubSend mail to Wulansari R.;",
+            "Rezamela, ErdiansyahbSend mail to Rezamela E.;",
+            "Cahyadi, Willy A.aSend mail to Cahyadi W.A."
+        ],
+        "sdgs":[
+            "Temperature is crucial for tea nurseries. Hence, a control and monitoring system is required to maintain the temperature in ideal conditions. However, processing temperature measurement manually causes the temperature inside the tea nursery or sungkup to change. Because when the temperature is measured, the tea nursery cover is opened, making the condition not ideal. In this study, a monitoring and control system is proposed. This system can supervise the tea nursery condition and control the temperature using two-position control method based on temperature. The temperature is measured using the SHT20 sensor. Then, a water or mist sprayer controls the temperature inside the tea nursery. The proposed system is also designed to record and collect the tea nursery condition data. The monitoring and control results show that the system can maintain the temperature in ideal condition at 13\u00b0C-25\u00b0C, corresponding the ideal condition for a tea nursery. Then, the SHT20 sensor has good accuracy, 99.72%. So, it has a minor error with the validated temperature meter. \u00a9 2024 Author(s)."
+        ],
+        "abstrak":[
+            "Temperature is crucial for tea nurseries. Hence, a control and monitoring system is required to maintain the temperature in ideal conditions. However, processing temperature measurement manually causes the temperature inside the tea nursery or sungkup to change. Because when the temperature is measured, the tea nursery cover is opened, making the condition not ideal. In this study, a monitoring and control system is proposed. This system can supervise the tea nursery condition and control the temperature using two-position control method based on temperature. The temperature is measured using the SHT20 sensor. Then, a water or mist sprayer controls the temperature inside the tea nursery. The proposed system is also designed to record and collect the tea nursery condition data. The monitoring and control results show that the system can maintain the temperature in ideal condition at 13\u00b0C-25\u00b0C, corresponding the ideal condition for a tea nursery. Then, the SHT20 sensor has good accuracy, 99.72%. So, it has a minor error with the validated temperature meter. \u00a9 2024 Author(s)."
+        ]
+    },
+    {
+        "judul":[
+            "Deep neural networks approach with transfer learning to detect fake accounts social media on Twitter"
+        ],
+        "penulis":[
+            "Lubis, Arif RidhoaSend mail to Lubis A.R.;",
+            "Prayudani, SantiaSend mail to Prayudani S.;",
+            "Hamzah, Muhammad LuthfibSend mail to Hamzah M.L.;",
+            "Lase, Yuyun YusnidaaSend mail to Lase Y.Y.;",
+            "Lubis, MuharmancSend mail to Lubis M.;",
+            "Al-KhowarizmidSend mail to Al-Khowarizmi;",
+            "Hutagalung, Gabriel ArdiaSend mail to Hutagalung G.A."
+        ],
+        "sdgs":[
+            "The massive use of social media makes people take actions that have a negative impact on cyberspace, such as creating fake accounts that aim to commit crimes such as spam and fraud to spread false information. Fake accounts are difficult to detect in the traditional way because fake accounts always use photos, names, and unreal information, there are several criteria that can identify a fake account such as no information, few followers, and minimal activity. In the traditional model, it is difficult to detect fake accounts on many Twitters social media accounts, so the application of the deep learning model with the convolutional neural network (CNN) algorithm and the application of deep learning can help detect fake accounts. This study will use data on Twitter social media so that this research produces good accuracy for the scenarios described at the methodology stage. This research produces an accuracy of 86% for the deep learning model with the CNN algorithm, and with the traditional model, it produces an accuracy of 51% while the use of transfer learning produces an accuracy of 93.9%. \u00a9 2024 Institute of Advanced Engineering and Science. All rights reserved."
+        ],
+        "abstrak":[
+            "The massive use of social media makes people take actions that have a negative impact on cyberspace, such as creating fake accounts that aim to commit crimes such as spam and fraud to spread false information. Fake accounts are difficult to detect in the traditional way because fake accounts always use photos, names, and unreal information, there are several criteria that can identify a fake account such as no information, few followers, and minimal activity. In the traditional model, it is difficult to detect fake accounts on many Twitters social media accounts, so the application of the deep learning model with the convolutional neural network (CNN) algorithm and the application of deep learning can help detect fake accounts. This study will use data on Twitter social media so that this research produces good accuracy for the scenarios described at the methodology stage. This research produces an accuracy of 86% for the deep learning model with the CNN algorithm, and with the traditional model, it produces an accuracy of 51% while the use of transfer learning produces an accuracy of 93.9%. \u00a9 2024 Institute of Advanced Engineering and Science. All rights reserved."
+        ]
+    },
+    {
+        "judul":[
+            "Sustainable business model innovation: external and internal factors on SMEs"
+        ],
+        "penulis":[
+            "Utaminingsih, AdijatiSend mail to Utaminingsih A.;",
+            "Widowati, Sri YuniSend mail to Widowati S.Y.;",
+            "Witjaksono, E.H.Send mail to Witjaksono E.H."
+        ],
+        "sdgs":[
+            "Purpose: This study aims to analyze the internal and external factors of the acceptance of small and medium enterprises (SMEs) to implemented sustainable business model innovations (SBMI) that depend on external factors, dynamic performance expectancy, facilitating conditions, social influence, effort expectancy, hedonic motivation and factor internal speed. Design\/methodology\/approach: This is a quantitative method research project conducted through a survey of SMEs in Semarang, Central Java, from February to June 2021. SMEs that have been operated to sustainable business were chosen purposively as samples. Based on the requirement, there are 220 entities used in this study. Data analysis was conducted by using Structural Equation Model. Findings: The results of this study provide empirical support that the factors studied affect the acceptance of SME business actors toward the implementation of SBMI. The application of this SBMI is used to design and implement a sustainable business model for SME businesses. This study has identified, explained and empirically supported the behavioral structures (composites and factors) that influence the adoption of SBMIs that are commonly available for business modeling. Research limitations\/implications: The main limitation of this research is the static view of the structure (construction) that influences the use or application of SBMI by SME actors which often changes over time, experience and failure. Originality\/value: This study supports the execution of sustainable innovation initiatives that have yet to be investigated at the strategic, operational and tactical levels. This is especially true when beginning a firm, because entrepreneurs encounter uncertainty while putting their plans into action at one of three levels: strategic, operational or tactical. \u00a9 2023, Emerald Publishing Limited.",
+            "PlumX metricsPlumX metrics (opens in new window)"
+        ],
+        "abstrak":[
+            "Purpose: This study aims to analyze the internal and external factors of the acceptance of small and medium enterprises (SMEs) to implemented sustainable business model innovations (SBMI) that depend on external factors, dynamic performance expectancy, facilitating conditions, social influence, effort expectancy, hedonic motivation and factor internal speed. Design\/methodology\/approach: This is a quantitative method research project conducted through a survey of SMEs in Semarang, Central Java, from February to June 2021. SMEs that have been operated to sustainable business were chosen purposively as samples. Based on the requirement, there are 220 entities used in this study. Data analysis was conducted by using Structural Equation Model. Findings: The results of this study provide empirical support that the factors studied affect the acceptance of SME business actors toward the implementation of SBMI. The application of this SBMI is used to design and implement a sustainable business model for SME businesses. This study has identified, explained and empirically supported the behavioral structures (composites and factors) that influence the adoption of SBMIs that are commonly available for business modeling. Research limitations\/implications: The main limitation of this research is the static view of the structure (construction) that influences the use or application of SBMI by SME actors which often changes over time, experience and failure. Originality\/value: This study supports the execution of sustainable innovation initiatives that have yet to be investigated at the strategic, operational and tactical levels. This is especially true when beginning a firm, because entrepreneurs encounter uncertainty while putting their plans into action at one of three levels: strategic, operational or tactical. \u00a9 2023, Emerald Publishing Limited."
+        ]
+    },
+    {
+        "judul":[
+            "Caching Strategy Utilizing Social Network Analysis Algorithm for Effective Cache Storage Allocation in Named Data Networking"
+        ],
+        "penulis":[
+            "Negara, Ridha Muldinaa,bSend mail to Negara R.M.;",
+            "Syambas, Nana Rachmanaa;",
+            "Mulyana, Eueunga;",
+            "Fajri, Rashid Muhammadb"
+        ],
+        "sdgs":[
+            "Named Data Networking (NDN) utilizes caching strategies to manage data caching on network nodes, making it suitable for high-traffic future networks. In-network caching brings desired data packets closer to users topologically, enhancing network performance and satisfying users. However, a critical challenge in NDN network design is determining the Content Store (CS) size allocation for each router. Previous studies overlooked router position, assuming uniform CS sizes. To address this, we proposed a caching strategy with the Social Network Analysis (SNA) algorithm was developed to calculate the influence of an NDN router on the topology. The SNA algorithm includes degree centrality, betweenness centrality, and consolidated centrality. Validated using the ICARUS caching simulator, the study\u2019s results propose an efficient caching strategy for allocating cache storage on all NDN routers. The SNA-based approach outperforms alternatives in cache hit rate, latency, link load, and path stretch, contributing to effective and efficient network planning. \u00a9 The Author(s), under exclusive license to Springer Nature Switzerland AG 2024.",
+            "PlumX metricsPlumX metrics (opens in new window)"
+        ],
+        "abstrak":[
+            "Named Data Networking (NDN) utilizes caching strategies to manage data caching on network nodes, making it suitable for high-traffic future networks. In-network caching brings desired data packets closer to users topologically, enhancing network performance and satisfying users. However, a critical challenge in NDN network design is determining the Content Store (CS) size allocation for each router. Previous studies overlooked router position, assuming uniform CS sizes. To address this, we proposed a caching strategy with the Social Network Analysis (SNA) algorithm was developed to calculate the influence of an NDN router on the topology. The SNA algorithm includes degree centrality, betweenness centrality, and consolidated centrality. Validated using the ICARUS caching simulator, the study\u2019s results propose an efficient caching strategy for allocating cache storage on all NDN routers. The SNA-based approach outperforms alternatives in cache hit rate, latency, link load, and path stretch, contributing to effective and efficient network planning. \u00a9 The Author(s), under exclusive license to Springer Nature Switzerland AG 2024."
+        ]
+    },
+    {
+        "judul":[
+            "Application of Convolutional Neural Network Method with MobileNet V1 and ResNet-152 V2 Architecture in Batik Motif Classification"
+        ],
+        "penulis":[
+            "Sani Zulkarnaen, Aulia ChusnyrianiaSend mail to Sani Zulkarnaen A.C.;",
+            "Gusti Ngurah Rejski Ariantara Putra I.aSend mail to Gusti Ngurah Rejski Ariantara Putra I.;",
+            "Reviana, Nada FauziaaSend mail to Reviana N.F.;",
+            "Hidayah, RahmawatiaSend mail to Hidayah R.;",
+            "Ibrahim, Nura,bSend mail to Ibrahim N.;",
+            "Caecar Pratiwi, Nor KumalasariaSend mail to Caecar Pratiwi N.K.;",
+            "Fuadah, Yunendah NuraSend mail to Fuadah Y.N."
+        ],
+        "sdgs":[
+            "Indonesia is a country that has diverse natural resources, cultures, and languages. One of the cultural diversities in Indonesia is Batik, which is an Indonesian cultural heritage consisting of cloth drawn by hand using traditional techniques. To assist the public in recognizing various batik motifs, a classification method was developed to identify the types of batik through input images. The classification method uses Convolutional Neural Network (CNN) based on MobileNet V1 and ResNet-152 V2 architecture. This research uses a dataset consisting of 3300 batik images from six different batik motifs, namely ceplok, parang, nitik, megamendung, kawung, and tambal. The optimal classification model was obtained using ResNet-152 V2 architecture with shear pre-processing method and RMSprop optimizer with test accuracy value of 89.67% and validation loss of 0.44. \u00a9 The Author(s), under exclusive license to Springer Nature Switzerland AG 2024."
+        ],
+        "abstrak":[
+            "Indonesia is a country that has diverse natural resources, cultures, and languages. One of the cultural diversities in Indonesia is Batik, which is an Indonesian cultural heritage consisting of cloth drawn by hand using traditional techniques. To assist the public in recognizing various batik motifs, a classification method was developed to identify the types of batik through input images. The classification method uses Convolutional Neural Network (CNN) based on MobileNet V1 and ResNet-152 V2 architecture. This research uses a dataset consisting of 3300 batik images from six different batik motifs, namely ceplok, parang, nitik, megamendung, kawung, and tambal. The optimal classification model was obtained using ResNet-152 V2 architecture with shear pre-processing method and RMSprop optimizer with test accuracy value of 89.67% and validation loss of 0.44. \u00a9 The Author(s), under exclusive license to Springer Nature Switzerland AG 2024."
+        ]
+    },
+    {
+        "judul":[
+            "Characteristics of pulsating heat pipe with variation of tube diameter, filling ratio, and SiO2nanoparticles: Biomedical and engineering implications"
+        ],
+        "penulis":[
+            "Babu E.R.aSend mail to Babu E.R.;",
+            "Reddy, Nagaraja C.aSend mail to Reddy N.C.;",
+            "Babbar, AtulbSend mail to Babbar A.;",
+            "Chandrashekar A.cSend mail to Chandrashekar A.;",
+            "Kumar, RamandSend mail to Kumar R.;",
+            "Bains, Pardeep Singhe,fSend mail to Bains P.S.;",
+            "Alsubih, MajedgSend mail to Alsubih M.;",
+            "Islam, SaifulgSend mail to Islam S.;",
+            "Joshi, Sanjeev KumarhSend mail to Joshi S.K.;",
+            "Rizal, AchmadiSend mail to Rizal A.;",
+            "Ammarullah, Muhammad Imamj,k,lSend mail to Ammarullah M.I."
+        ],
+        "sdgs":[
+            "Pulsating heat pipe (PHP) is an implicit technique through a passive two-stage heat transfer system. This paper presents the experimentations on PHP contrived using copper with different inner tube diameters of 1, 1.5, 2, and 2.5 mm, respectively. The PHP is accused of acetone as a functional liquid with filling proportions varying from 50 to 90% of its volume with an increment of 10%. The effects of filling proportion and tube diameter on the thermal performance of PHP were investigated. The evaporator zone is electrically heated using a mica heater in the range of 20\u201380 W, and the condenser area is kept cool by the water circulation method. The results show that a 2 mm inner tube diameter performs best compared to other tube diameters, with a lower rate of thermal resistance of 0.49 K\/W. Also, the performance of PHP is enhanced at a filling proportion of 60% for all the tube diameters. Further, CFD analysis was carried out for different filling ratios for a 2 mm diameter pipe at a constant heat input of 80 W, and it revealed that test outcomes were in line with CFD results. The deviation between the experimental and numerical studies was 10%. Considering the optimized parameters, i.e., tube diameter and filling ratio, the work was extended by adding SiO2nanoparticles to the base fluid with 1\u20135 % mass concentration. The results showed a lower thermal resistance value of 0.3 W\/K and a higher heat transfer coefficient of 828.64 W\/m2\u00b0K was obtained at 2% mass concentration of SiO2. Also, the proportional rise in heat transfer coefficient at 60 W is 11.46, 17, 14, 4.15, and 1.94% for 1, 2, 3, 4, and 5% mass concentration of SiO2nanoparticles, respectively. Hence, the PHP operates better at a 2 mm diameter with a 60% filling ratio and 2% mass concentration of SiO2nanoparticles. \u00a9 2024 The Authors"
+        ],
+        "abstrak":[
+            "Pulsating heat pipe (PHP) is an implicit technique through a passive two-stage heat transfer system. This paper presents the experimentations on PHP contrived using copper with different inner tube diameters of 1, 1.5, 2, and 2.5 mm, respectively. The PHP is accused of acetone as a functional liquid with filling proportions varying from 50 to 90% of its volume with an increment of 10%. The effects of filling proportion and tube diameter on the thermal performance of PHP were investigated. The evaporator zone is electrically heated using a mica heater in the range of 20\u201380 W, and the condenser area is kept cool by the water circulation method. The results show that a 2 mm inner tube diameter performs best compared to other tube diameters, with a lower rate of thermal resistance of 0.49 K\/W. Also, the performance of PHP is enhanced at a filling proportion of 60% for all the tube diameters. Further, CFD analysis was carried out for different filling ratios for a 2 mm diameter pipe at a constant heat input of 80 W, and it revealed that test outcomes were in line with CFD results. The deviation between the experimental and numerical studies was 10%. Considering the optimized parameters, i.e., tube diameter and filling ratio, the work was extended by adding SiO2nanoparticles to the base fluid with 1\u20135 % mass concentration. The results showed a lower thermal resistance value of 0.3 W\/K and a higher heat transfer coefficient of 828.64 W\/m2\u00b0K was obtained at 2% mass concentration of SiO2. Also, the proportional rise in heat transfer coefficient at 60 W is 11.46, 17, 14, 4.15, and 1.94% for 1, 2, 3, 4, and 5% mass concentration of SiO2nanoparticles, respectively. Hence, the PHP operates better at a 2 mm diameter with a 60% filling ratio and 2% mass concentration of SiO2nanoparticles. \u00a9 2024 The Authors"
+        ]
+    },
+    {
+        "judul":[
+            "Digital Marketing Implementation by Culinary Micro Small Medium Enterprises During Covid-19 (An Indonesia Case)"
+        ],
+        "penulis":[
+            "Martadikusumah, Trisha Asyifa AndiniaSend mail to Martadikusumah T.A.A.;",
+            "IndrawatibSend mail to Indrawati"
+        ],
+        "sdgs":[
+            "This study aims to understand the culinary cluster MSMEs' efforts in Cimahi City to implement digital marketing during Covid-19. The research includes factors that hinder the decision to use digital platforms based on the TOE Framework, digital marketing activities, business performance, digital marketing constraints, and recommendations for stakeholders in optimizing digital marketing. The methodology of this research is qualitative, with a case study strategy. This study obtained the data through online in-depth interviews and FGDs with 10 Culinary MSMEs owners and four representatives of the Cimahi City government. The results showed that informants adopted digital platforms, but employee skills indicators inhibit decision-making. The implementation of digital marketing and business performance could have been more optimal. Therefore, the main barrier to digital marketing activities is the limited capacity, capability, and number of HR in the organization that can market digitally. Hence, the proposed recommendations are improving digital literacy and stakeholder collaboration through training, mentoring, and labor assistance. \u00a9 2024, SRAC - Romanian Society for Quality. All rights reserved.",
+            "Sustainable Development Goals mapped to this documentGood health and well-beingGoal 3Partnership for the goalsGoal 17",
+            "Sustainable Development Goals mapped to this document",
+            "PlumX metricsPlumX metrics (opens in new window)"
+        ],
+        "abstrak":[
+            "This study aims to understand the culinary cluster MSMEs' efforts in Cimahi City to implement digital marketing during Covid-19. The research includes factors that hinder the decision to use digital platforms based on the TOE Framework, digital marketing activities, business performance, digital marketing constraints, and recommendations for stakeholders in optimizing digital marketing. The methodology of this research is qualitative, with a case study strategy. This study obtained the data through online in-depth interviews and FGDs with 10 Culinary MSMEs owners and four representatives of the Cimahi City government. The results showed that informants adopted digital platforms, but employee skills indicators inhibit decision-making. The implementation of digital marketing and business performance could have been more optimal. Therefore, the main barrier to digital marketing activities is the limited capacity, capability, and number of HR in the organization that can market digitally. Hence, the proposed recommendations are improving digital literacy and stakeholder collaboration through training, mentoring, and labor assistance. \u00a9 2024, SRAC - Romanian Society for Quality. All rights reserved."
+        ]
+    },
+    {
+        "judul":[
+            "Investigating Adolescent Vulnerability in Indonesia: A Socio-Remote Sensing Big Data Analytics Study Using Night Light Data"
+        ],
+        "penulis":[
+            "Toharudin, Tonia;",
+            "Caraka, RezzyEkoa,b,cSend mail to Caraka R.E.;",
+            "Kaban, Puspita Anggrainid;",
+            "Supardi, Khairunnisae;",
+            "Kurniawan, Robertd;",
+            "Kim, YunhobSend mail to Kim Y.;",
+            "Mufti, Syihabuddin Ahmadf;",
+            "Gio, Prana Ugianag;",
+            "Sakti, Anjar Dimarah;",
+            "Chen, Rung-Chingi;",
+            "Noh, Maengseokj;",
+            "Pardamean, Bensk,l"
+        ],
+        "sdgs":[
+            "The rising prevalence of behavioral and mental health challenges among Indonesian adolescents, affecting nearly one in three, is a pressing concern intensified by constant internet exposure and heightened social comparisons. This study, using data from Indonesia's National Socioeconomic Survey, examines the likelihood of mental health issues in adolescents, incorporating variables like mobile phone usage, emotional and behavioral disorder classifications, travel experiences, insurance ownership, maternal residence, house surface area, and night light remote sensing data. Our findings reveal that urban adolescents face a higher susceptibility to behavioral disorders compared to rural peers, with males being 1.18 times more likely to experience behavioral and emotional disturbances than females. This research validates the suitability of these variables for assessing vulnerability among adolescents. Leveraging big data analytics, it highlights the multifaceted determinants of adolescent vulnerability in Indonesia, stressing the need for targeted interventions and policies to enhance their well-being.  \u00a9 2013 IEEE.",
+            "Sustainable Development Goals mapped to this documentPartnership for the goalsGoal 17",
+            "Sustainable Development Goals mapped to this document"
+        ],
+        "abstrak":[
+            "The rising prevalence of behavioral and mental health challenges among Indonesian adolescents, affecting nearly one in three, is a pressing concern intensified by constant internet exposure and heightened social comparisons. This study, using data from Indonesia's National Socioeconomic Survey, examines the likelihood of mental health issues in adolescents, incorporating variables like mobile phone usage, emotional and behavioral disorder classifications, travel experiences, insurance ownership, maternal residence, house surface area, and night light remote sensing data. Our findings reveal that urban adolescents face a higher susceptibility to behavioral disorders compared to rural peers, with males being 1.18 times more likely to experience behavioral and emotional disturbances than females. This research validates the suitability of these variables for assessing vulnerability among adolescents. Leveraging big data analytics, it highlights the multifaceted determinants of adolescent vulnerability in Indonesia, stressing the need for targeted interventions and policies to enhance their well-being.  \u00a9 2013 IEEE."
+        ]
+    },
+    {
+        "judul":[
+            "Controlling temperature using proportional integral and derivative control algorithm for hybrid forced convection solar dryer"
+        ],
+        "penulis":[
+            "Arifin, Mohammad AldrinaSend mail to Arifin M.A.;",
+            "Pangaribuan, PormanaSend mail to Pangaribuan P.;",
+            "Pramudita, Brahmantya AjiaSend mail to Pramudita B.A.;",
+            "Megantoro, PrismabSend mail to Megantoro P."
+        ],
+        "sdgs":[
+            "Drying is one of the crucial processes in agricultural production, especially in grain processing. The drying process can improve grain quality and affect the grain content. However, maintaining the temperature is a challenge in the drying process. Because it can influence the drying performance and produce a low-efficiency reduction of water content, in this study, the hybrid drying system is proposed to improve the performance of the forced convection dryer system. The proposed system used a proportional integral and derivative (PID) control system to obtain the optimal temperature. The proposed system was compared with natural drying and forced convection methods. The experimental result showed that the proposed system performed excellently for three performance evaluations. The average temperature was obtained as the highest of the other methods, with 54.68 \u00b0C and 54.55 \u00b0C for coffee and cocoa beans. The water content can be reduced by an average of 27.38% and 42.67% for coffee and cocoa beans. Then, the proposed system also had the highest reduction efficiency of water content than the other methods, with 62.71% and 36.94% reductions for coffee and cocoa beans, respectively. The results indicate that the proposed hybrid system performs better than the other methods. \u00a9 2024 Institute of Advanced Engineering and Science. All rights reserved.",
+            "PlumX metricsPlumX metrics (opens in new window)"
+        ],
+        "abstrak":[
+            "Drying is one of the crucial processes in agricultural production, especially in grain processing. The drying process can improve grain quality and affect the grain content. However, maintaining the temperature is a challenge in the drying process. Because it can influence the drying performance and produce a low-efficiency reduction of water content, in this study, the hybrid drying system is proposed to improve the performance of the forced convection dryer system. The proposed system used a proportional integral and derivative (PID) control system to obtain the optimal temperature. The proposed system was compared with natural drying and forced convection methods. The experimental result showed that the proposed system performed excellently for three performance evaluations. The average temperature was obtained as the highest of the other methods, with 54.68 \u00b0C and 54.55 \u00b0C for coffee and cocoa beans. The water content can be reduced by an average of 27.38% and 42.67% for coffee and cocoa beans. Then, the proposed system also had the highest reduction efficiency of water content than the other methods, with 62.71% and 36.94% reductions for coffee and cocoa beans, respectively. The results indicate that the proposed hybrid system performs better than the other methods. \u00a9 2024 Institute of Advanced Engineering and Science. All rights reserved."
+        ]
+    },
+    {
+        "judul":[
+            "Halal Supply Chain Performance Measurement Model in Food Industry Using SCOR Model, AHP Method and OMAX"
+        ],
+        "penulis":[
+            "Wulandari, RatnaaSend mail to Wulandari R.;",
+            "Ridwan, Ari YanuaraSend mail to Ridwan A.Y.;",
+            "Muttaqin, SuksessannobSend mail to Muttaqin S."
+        ],
+        "sdgs":[
+            "Indonesia is a country that has the largest Muslim population in the world, which makes Indonesia a large market share for Sharia products and services, especially Indonesia has potential in the halal food industry. There are several standards for the halal management system that must be considered, such as in SNI 99001: 2016 Clause 3.4.1 which contains criteria, methods, including measurements and related performance indicators needed to ensure effective operation, and inter-process control. Thus, the organization or company is needed to be able to establish company criteria, methods and measurement of performance indicators in order to ensure effectiveness in the process. The purpose of this study is to determine the criteria for measuring the performance of the halal supply chain in the planning process, to design a system and interface for measuring the performance of the halal supply chain in the planning process based on SNI 99001: 2016. In the process of completing this research using the SCOR model and the AHP, OMAX, and TLS method. The results of the performance measurement for the criteria and sub-criteria are obtained. In this study, three criteria were produced for each part of the planning, namely reliability, responsiveness, and cost. For planning the procurement of raw materials there are 6 sub-criteria reliability, 1 sub-criteria responsiveness, and 1 sub-criteria cost. For production planning, there are 5 reliability sub-criteria, 3 responsiveness sub-criteria, and 1 cost sub-criteria. For raw material procurement planning, there are 7 reliability sub-criteria, 3 responsiveness sub-criteria, and 1 cost sub-criteria. \u00a9 2023, The Author(s), under exclusive license to Springer Nature Singapore Pte Ltd.",
+            "Sustainable Development Goals mapped to this documentPartnership for the goalsGoal 17",
+            "Sustainable Development Goals mapped to this document",
+            "PlumX metricsPlumX metrics (opens in new window)"
+        ],
+        "abstrak":[
+            "Indonesia is a country that has the largest Muslim population in the world, which makes Indonesia a large market share for Sharia products and services, especially Indonesia has potential in the halal food industry. There are several standards for the halal management system that must be considered, such as in SNI 99001: 2016 Clause 3.4.1 which contains criteria, methods, including measurements and related performance indicators needed to ensure effective operation, and inter-process control. Thus, the organization or company is needed to be able to establish company criteria, methods and measurement of performance indicators in order to ensure effectiveness in the process. The purpose of this study is to determine the criteria for measuring the performance of the halal supply chain in the planning process, to design a system and interface for measuring the performance of the halal supply chain in the planning process based on SNI 99001: 2016. In the process of completing this research using the SCOR model and the AHP, OMAX, and TLS method. The results of the performance measurement for the criteria and sub-criteria are obtained. In this study, three criteria were produced for each part of the planning, namely reliability, responsiveness, and cost. For planning the procurement of raw materials there are 6 sub-criteria reliability, 1 sub-criteria responsiveness, and 1 sub-criteria cost. For production planning, there are 5 reliability sub-criteria, 3 responsiveness sub-criteria, and 1 cost sub-criteria. For raw material procurement planning, there are 7 reliability sub-criteria, 3 responsiveness sub-criteria, and 1 cost sub-criteria. \u00a9 2023, The Author(s), under exclusive license to Springer Nature Singapore Pte Ltd."
+        ]
+    },
+    {
+        "judul":[
+            "The assessment of molecular dynamics results of three-dimensional RNA aptamer structure prediction"
+        ],
+        "penulis":[
+            "Ropii, Bejoa;",
+            "Bethasari, Maulidwinab;",
+            "Anshori, Isaa,cSend mail to Anshori I.;",
+            "Koesoema, Allya Paramitaa;",
+            "Shalannanda, WervyanaSend mail to Shalannanda W.;",
+            "Satriawan, Ardiantoa;",
+            "Setianingsih, CasidSend mail to Setianingsih C.;",
+            "Akbar, Mohammad Rizkie;",
+            "Aditama, RezafSend mail to Aditama R."
+        ],
+        "sdgs":[
+            "Aptamers are single-stranded DNA or RNA that bind to specific targets such as proteins, thus having similar characteristics to antibodies. It can be synthesized at a lower cost, with no batch-to-batch variations, and is easier to modify chemically than antibodies, thus potentially being used as therapeutic and biosensing agents. The current method for RNA aptamer identification in vitro uses the SELEX method, which is considered inefficient due to its complex process. Computational models of aptamers have been used to predict and study the molecular interaction of modified aptamers to improve affinity. In this study, we generated three-dimensional models of five RNA aptamers from their sequence using mFold, RNAComposer web server, and molecular dynamics simulation. The model structures were then evaluated and compared with the experimentally determined structures. This study showed that the combination of mFold, RNAComposer, and molecular dynamics simulation could generate 14-16, 28, or 29 nucleotides length of 3D RNA aptamer with similar geometry and topology to the experimentally determined structures. The non-canonical basepair structure of the aptamer loop was formed through the MD simulation, which also improved the three-dimensional RNA aptamers model. Clustering analysis was recommended to choose the more representative model. Copyright: \u00a9 2023 Ropii et al. This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.",
+            "PlumX metricsPlumX metrics (opens in new window)"
+        ],
+        "abstrak":[
+            "Aptamers are single-stranded DNA or RNA that bind to specific targets such as proteins, thus having similar characteristics to antibodies. It can be synthesized at a lower cost, with no batch-to-batch variations, and is easier to modify chemically than antibodies, thus potentially being used as therapeutic and biosensing agents. The current method for RNA aptamer identification in vitro uses the SELEX method, which is considered inefficient due to its complex process. Computational models of aptamers have been used to predict and study the molecular interaction of modified aptamers to improve affinity. In this study, we generated three-dimensional models of five RNA aptamers from their sequence using mFold, RNAComposer web server, and molecular dynamics simulation. The model structures were then evaluated and compared with the experimentally determined structures. This study showed that the combination of mFold, RNAComposer, and molecular dynamics simulation could generate 14-16, 28, or 29 nucleotides length of 3D RNA aptamer with similar geometry and topology to the experimentally determined structures. The non-canonical basepair structure of the aptamer loop was formed through the MD simulation, which also improved the three-dimensional RNA aptamers model. Clustering analysis was recommended to choose the more representative model. Copyright: \u00a9 2023 Ropii et al. This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited."
+        ]
+    },
+    {
+        "judul":[
+            "Automatic echocardiographic anomalies interpretation using a stacked residual-dense network model"
+        ],
+        "penulis":[
+            "Nurmaini, SitiaSend mail to Nurmaini S.;",
+            "Sapitri, Ade Iriania,bSend mail to Sapitri A.I.;",
+            "Tutuko, BambangaSend mail to Tutuko B.;",
+            "Rachmatullah, Muhammad NaufalaSend mail to Rachmatullah M.N.;",
+            "Rini, Dian PalupicSend mail to Rini D.P.;",
+            "Darmawahyuni, AnnisaaSend mail to Darmawahyuni A.;",
+            "Firdaus, FirdausaSend mail to Firdaus F.;",
+            "Mandala, SatriadSend mail to Mandala S.;",
+            "Nova, RiaeSend mail to Nova R.;",
+            "Bernolian, NuswilfSend mail to Bernolian N."
+        ],
+        "sdgs":[
+            "Echocardiographic interpretation during the prenatal or postnatal period is important for diagnosing cardiac septal abnormalities. However, manual interpretation can be time consuming and subject to human error. Automatic segmentation of echocardiogram can support cardiologists in making an initial interpretation. However, such a process does not always provide straightforward information to make a complete interpretation. The segmentation process only identifies the region of cardiac septal abnormality, whereas complete interpretation should determine based on the position of defect. In this study, we proposed a stacked residual-dense network model to segment the entire region of cardiac and classifying their defect positions to generate automatic echocardiographic interpretation. We proposed the generalization model with incorporated two modalities: prenatal and postnatal echocardiography. To further evaluate the effectiveness of our model, its performance was verified by five cardiologists. We develop a pipeline process using 1345 echocardiograms for training data and 181 echocardiograms for unseen data from prospective patients acquired during standard clinical practice at Muhammad Hoesin General Hospital in Indonesia. As a result, the proposed model produced of 58.17% intersection over union (IoU), 75.75% dice similarity coefficient (DSC), and 76.36% mean average precision (mAP) for the validation data. Using unseen data, we achieved 42.39% IoU, 55.72% DSC, and 51.04% mAP. Further, the classification of defect positions using unseen data had approximately 92.27% accuracy, 94.33% specificity, and 92.05% sensitivity. Finally, our proposed model is validated with human expert with varying Kappa value. On average, these results hold promise of increasing suitability in clinical practice as a supporting diagnostic tool for establishing the diagnosis. \u00a9 2023, BioMed Central Ltd., part of Springer Nature.",
+            "PlumX metricsPlumX metrics (opens in new window)"
+        ],
+        "abstrak":[
+            "Echocardiographic interpretation during the prenatal or postnatal period is important for diagnosing cardiac septal abnormalities. However, manual interpretation can be time consuming and subject to human error. Automatic segmentation of echocardiogram can support cardiologists in making an initial interpretation. However, such a process does not always provide straightforward information to make a complete interpretation. The segmentation process only identifies the region of cardiac septal abnormality, whereas complete interpretation should determine based on the position of defect. In this study, we proposed a stacked residual-dense network model to segment the entire region of cardiac and classifying their defect positions to generate automatic echocardiographic interpretation. We proposed the generalization model with incorporated two modalities: prenatal and postnatal echocardiography. To further evaluate the effectiveness of our model, its performance was verified by five cardiologists. We develop a pipeline process using 1345 echocardiograms for training data and 181 echocardiograms for unseen data from prospective patients acquired during standard clinical practice at Muhammad Hoesin General Hospital in Indonesia. As a result, the proposed model produced of 58.17% intersection over union (IoU), 75.75% dice similarity coefficient (DSC), and 76.36% mean average precision (mAP) for the validation data. Using unseen data, we achieved 42.39% IoU, 55.72% DSC, and 51.04% mAP. Further, the classification of defect positions using unseen data had approximately 92.27% accuracy, 94.33% specificity, and 92.05% sensitivity. Finally, our proposed model is validated with human expert with varying Kappa value. On average, these results hold promise of increasing suitability in clinical practice as a supporting diagnostic tool for establishing the diagnosis. \u00a9 2023, BioMed Central Ltd., part of Springer Nature."
+        ]
+    },
+    {
+        "judul":[
+            "The tremendous household debt in Asia Pacific countries: is it determined by financial development?"
+        ],
+        "penulis":[
+            "Kusairi, Suhala,bSend mail to Kusairi S.;",
+            "Sanusi, Nur AzuraaSend mail to Sanusi N.A.;",
+            "Muktiyanto, AlicSend mail to Muktiyanto A."
+        ],
+        "sdgs":[
+            "Since the early twentieth century, the tremendous increase in household debt has motivated researchers to find the determinant factors of this phenomenon. The paper uses data from Asia Pacific countries and dynamic heterogeneous panel method analysis to determine factors of household debt. The results find that financial development and financial institution access have a long-run positive relationship, stable and convergent with household debt. This implies that as the financial system developed, as evidenced by easy access to financial institutions, it provided some attractive financial instruments and financial markets became liquid. As a result, household debt increased due to easier access to financing and credit options that matched people's needs. However, in the short run, financial development and financial institution access do not strongly affect household debt of countries overall. Also, the real interest rate and housing price have a positive impact, and stock capital accumulation and household consumption harm household debt in the long run. Therefore, supervision of the volatility of household debt and financial development are important for sustainable economic growth. Copyright \u00a9 2023 Inderscience Enterprises Ltd.",
+            "Sustainable Development Goals mapped to this documentDecent work and economic growthGoal 8",
+            "Sustainable Development Goals mapped to this document",
+            "PlumX metricsPlumX metrics (opens in new window)"
+        ],
+        "abstrak":[
+            "Since the early twentieth century, the tremendous increase in household debt has motivated researchers to find the determinant factors of this phenomenon. The paper uses data from Asia Pacific countries and dynamic heterogeneous panel method analysis to determine factors of household debt. The results find that financial development and financial institution access have a long-run positive relationship, stable and convergent with household debt. This implies that as the financial system developed, as evidenced by easy access to financial institutions, it provided some attractive financial instruments and financial markets became liquid. As a result, household debt increased due to easier access to financing and credit options that matched people's needs. However, in the short run, financial development and financial institution access do not strongly affect household debt of countries overall. Also, the real interest rate and housing price have a positive impact, and stock capital accumulation and household consumption harm household debt in the long run. Therefore, supervision of the volatility of household debt and financial development are important for sustainable economic growth. Copyright \u00a9 2023 Inderscience Enterprises Ltd."
+        ]
+    },
+    {
+        "judul":[
+            "Intrusion Detection System Using Incremental Learning Method"
+        ],
+        "penulis":[
+            "Kuswara, Fadjri Adha PutraaSend mail to Kuswara F.A.P.;",
+            "Nuha, Hilal H.bSend mail to Nuha H.H.;",
+            "Suryani, VeraaSend mail to Suryani V."
+        ],
+        "sdgs":[
+            "Intrusion Detection System (IDS) is a security system that monitors computer networks or systems for unauthorized access or malicious activity. The main purpose of an IDS is to detect and alert suspicious activity, so that appropriate action can be taken to stop or mitigate attacks. Incremental Learning uses machine learning algorithms to continuously learn and adapt to new network activities. The Incremental Learning process enables IDS to adapt to changing network conditions and to identify new or previously unknown attacks. The results of the Incremental Learning experiment using Naive Bayes and SVM on different datasets show the superiority of the Naive Bayes algorithm with an average accuracy of 0.9840.  \u00a9 2023 IEEE."
+        ],
+        "abstrak":[
+            "Intrusion Detection System (IDS) is a security system that monitors computer networks or systems for unauthorized access or malicious activity. The main purpose of an IDS is to detect and alert suspicious activity, so that appropriate action can be taken to stop or mitigate attacks. Incremental Learning uses machine learning algorithms to continuously learn and adapt to new network activities. The Incremental Learning process enables IDS to adapt to changing network conditions and to identify new or previously unknown attacks. The results of the Incremental Learning experiment using Naive Bayes and SVM on different datasets show the superiority of the Naive Bayes algorithm with an average accuracy of 0.9840.  \u00a9 2023 IEEE."
+        ]
+    },
+    {
+        "judul":[
+            "Spectrum Demand for Mobile Broadband: A Review and Simulations for Case of Indonesia"
+        ],
+        "penulis":[
+            "Hastyo, Wijanarko JokoaSend mail to Hastyo W.J.;",
+            "Suryanegara, MuhammadaSend mail to Suryanegara M.;",
+            "FardanbSend mail to Fardan;",
+            "Anwar, KhoirulbSend mail to Anwar K."
+        ],
+        "sdgs":[
+            "Along with the rapid growth of mobile broadband technologies today, the number of active mobile broadband subscribers in the world is continuing to increase. This fact causes the total internet traffic generated by mobile users increases significantly requiring additional radio frequency spectrum. In this paper, a review of spectrum demand prediction for mobile broadband with their strengths and weakness is presented. We present spectrum demand of Indonesia obtained from a simulation. The results show that the baseline spectrum in Indonesia is not enough to provide targeted user experienced data rate. Additional spectrum for mobile network operator (MNO) should be assigned to deliver the required capacity for the country.  \u00a9 2023 IEEE."
+        ],
+        "abstrak":[
+            "Along with the rapid growth of mobile broadband technologies today, the number of active mobile broadband subscribers in the world is continuing to increase. This fact causes the total internet traffic generated by mobile users increases significantly requiring additional radio frequency spectrum. In this paper, a review of spectrum demand prediction for mobile broadband with their strengths and weakness is presented. We present spectrum demand of Indonesia obtained from a simulation. The results show that the baseline spectrum in Indonesia is not enough to provide targeted user experienced data rate. Additional spectrum for mobile network operator (MNO) should be assigned to deliver the required capacity for the country.  \u00a9 2023 IEEE."
+        ]
+    },
+    {
+        "judul":[
+            "Quad Tournament Optimizer: A Novel Metaheuristic Based on Tournament Among Four Strategies"
+        ],
+        "penulis":[
+            "Kusuma, Purba DaruSend mail to Kusuma P.D.;",
+            "Kallista, Meta"
+        ],
+        "sdgs":[
+            "This paper introduced a novel metaheuristic that is developed based on the tournament mechanism, namely quad tournament optimizer (QTO). As its name suggests, QTO proposes a new approach of metaheuristic in which there are four searches conducted by each agent in every iteration. These searches are: (1) searching toward the global best solution, (2) searching toward the middle between the global best solution and a randomly selected solution, (3) searching relative to a randomly selected solution, and (4) neighbourhood search around the corresponding solution and the global best solution. A solution candidate is generated by each search. Then, a tournament is carried out to find the best candidate. This strategy is novel because most of metaheuristic deploys only single search or multiple searches where each search is conducted sequentially. QTO is challenged to find the optimal solution of 23 classic functions. In this challenge, QTO is benchmarked against five shortcoming metaheuristics: marine predator algorithm (MPA), slime mould algorithm (SMA), golden search optimizer (GSO), hybrid pelican Komodo algorithm (HPKA), and guided pelican algorithm (GPA). The result indicates that QTO outperforms all these benchmark metaheuristics. QTO is better than MPA, SMA, GSO, HPKA, and GPA in solving 22, 19, 21, 20, and 13 functions consecutively. The result also indicates that QTO has successfully found the global optimal solution for nine functions: Sphere, Schwefel 2.22, Schwefel 1.2, Schwefel 2.21, Rastrigin, Griewank, Six Hump Camel, Branin, and Goldstein-Price. \u00a9 2023,International Journal of Intelligent Engineering and Systems.All Rights Reserved.",
+            "OCH3NCH3CH3CH3NHOHOView detailsExpand Substance trichostatin A",
+            "Powered by",
+            "PlumX metricsPlumX metrics (opens in new window)"
+        ],
+        "abstrak":[
+            "This paper introduced a novel metaheuristic that is developed based on the tournament mechanism, namely quad tournament optimizer (QTO). As its name suggests, QTO proposes a new approach of metaheuristic in which there are four searches conducted by each agent in every iteration. These searches are: (1) searching toward the global best solution, (2) searching toward the middle between the global best solution and a randomly selected solution, (3) searching relative to a randomly selected solution, and (4) neighbourhood search around the corresponding solution and the global best solution. A solution candidate is generated by each search. Then, a tournament is carried out to find the best candidate. This strategy is novel because most of metaheuristic deploys only single search or multiple searches where each search is conducted sequentially. QTO is challenged to find the optimal solution of 23 classic functions. In this challenge, QTO is benchmarked against five shortcoming metaheuristics: marine predator algorithm (MPA), slime mould algorithm (SMA), golden search optimizer (GSO), hybrid pelican Komodo algorithm (HPKA), and guided pelican algorithm (GPA). The result indicates that QTO outperforms all these benchmark metaheuristics. QTO is better than MPA, SMA, GSO, HPKA, and GPA in solving 22, 19, 21, 20, and 13 functions consecutively. The result also indicates that QTO has successfully found the global optimal solution for nine functions: Sphere, Schwefel 2.22, Schwefel 1.2, Schwefel 2.21, Rastrigin, Griewank, Six Hump Camel, Branin, and Goldstein-Price. \u00a9 2023,International Journal of Intelligent Engineering and Systems.All Rights Reserved."
+        ]
+    },
+    {
+        "judul":[
+            "Potential Development and Economic Analysis of Bioethanol Fabrication Design from Oil Palm Biomass with Ionic Liquid Choline Acetate Using SuperPro Designer (SPD) Software"
+        ],
+        "penulis":[
+            "Erawan F.a;",
+            "Utami A.R.I.aSend mail to Utami A.R.I.;",
+            "Sugiwati S.b;",
+            "Maryana R.b;",
+            "Mel M.c;",
+            "Darus L.d"
+        ],
+        "sdgs":[
+            "The increasing use of energy causes the availability of energy, especially in Indonesia, to be depleted. This condition encourages humans to develop renewable energy sources, one of which is bioethanol, with the availability of abundant raw materials in nature. However, the development of bioethanol is still ineffective because it requires a long time and has high costs. Therefore, a design for bioethanol fabrication from oil palm plantation products with ionic liquid pretreatment using SuperPro Designer (SPD) software was developed. The bioethanol production process was simulated through three stages: pretreatment, enzymatic saccharification, and fermentation. Pretreatment was carried out using the ionic liquid Choline Acetate, after which the results of saccharification and fermentation were analyzed. The results of saccharification showed that around 138 g\/L of palm oil was converted into sugar for fermentation. The overall result of the simulation system is that the fermentation process for 12 hours produced 92 g\/L ethanol or 96% of the theoretical yield. Meanwhile, ethanol production through fabrication for energy can reduce ethanol prices by 30% from their initial price. This ethanol fabrication design is very supportive of optimizing biomass into bioethanol. Therefore, this design can be used as a recommendation for economical bioethanol production to obtain optimal results in bioethanol production. \u00a9 2023 Institute of Physics Publishing. All rights reserved.",
+            "Sustainable Development Goals mapped to this documentAffordable and clean energyGoal 7Partnership for the goalsGoal 17",
+            "Sustainable Development Goals mapped to this document"
+        ],
+        "abstrak":[
+            "The increasing use of energy causes the availability of energy, especially in Indonesia, to be depleted. This condition encourages humans to develop renewable energy sources, one of which is bioethanol, with the availability of abundant raw materials in nature. However, the development of bioethanol is still ineffective because it requires a long time and has high costs. Therefore, a design for bioethanol fabrication from oil palm plantation products with ionic liquid pretreatment using SuperPro Designer (SPD) software was developed. The bioethanol production process was simulated through three stages: pretreatment, enzymatic saccharification, and fermentation. Pretreatment was carried out using the ionic liquid Choline Acetate, after which the results of saccharification and fermentation were analyzed. The results of saccharification showed that around 138 g\/L of palm oil was converted into sugar for fermentation. The overall result of the simulation system is that the fermentation process for 12 hours produced 92 g\/L ethanol or 96% of the theoretical yield. Meanwhile, ethanol production through fabrication for energy can reduce ethanol prices by 30% from their initial price. This ethanol fabrication design is very supportive of optimizing biomass into bioethanol. Therefore, this design can be used as a recommendation for economical bioethanol production to obtain optimal results in bioethanol production. \u00a9 2023 Institute of Physics Publishing. All rights reserved."
+        ]
+    },
+    {
+        "judul":[
+            "Design of network monitoring system based on LibreNMS using Line Notify, Telegram, and Email notification"
+        ],
+        "penulis":[
+            "Fachrurrozi, Nurwan RezaaSend mail to Fachrurrozi N.R.;",
+            "Wirabudi, Andri Agustava,b;",
+            "Rozano, Seandy Arandianta"
+        ],
+        "sdgs":[
+            "Institut Teknologi Telkom Jakarta (IT Telkom Jakarta) is an educational institution that supports student activities and provides internet capabilities to implement online learning systems. As the number of students increases with every year, so does the use of the internet and intranet networks and the experienced network problems. A network administrator is a person who is responsible for managing a computer network. Network administrators usually face network problems in monitoring network devices. This is because the process and operation are done manually. This means network administrators need direct access to the location to monitor all resources. Therefore, a network device monitoring system is needed to manage network devices centrally. This research focuses on the problem of monitoring network devices using open-source tools and software. Based on the implementation results, free network monitoring software such as LibreNMS can track and monitor all devices in all conditions and notify the active device condition in case of network failure such as up, down, reboot to the administrator via Line Notify, Telegram, and Email. With this network monitoring system, IT Telkom Jakarta is expected to be able to implement an integrated and well-monitored internet network system. Besides, the results of this study also produce real-time data on bandwidth usage, logging problems, and resource availability. This can significantly improve network availability and security. \u00a9 2023 Universitas Mercu Buana.",
+            "PlumX metricsPlumX metrics (opens in new window)"
+        ],
+        "abstrak":[
+            "Institut Teknologi Telkom Jakarta (IT Telkom Jakarta) is an educational institution that supports student activities and provides internet capabilities to implement online learning systems. As the number of students increases with every year, so does the use of the internet and intranet networks and the experienced network problems. A network administrator is a person who is responsible for managing a computer network. Network administrators usually face network problems in monitoring network devices. This is because the process and operation are done manually. This means network administrators need direct access to the location to monitor all resources. Therefore, a network device monitoring system is needed to manage network devices centrally. This research focuses on the problem of monitoring network devices using open-source tools and software. Based on the implementation results, free network monitoring software such as LibreNMS can track and monitor all devices in all conditions and notify the active device condition in case of network failure such as up, down, reboot to the administrator via Line Notify, Telegram, and Email. With this network monitoring system, IT Telkom Jakarta is expected to be able to implement an integrated and well-monitored internet network system. Besides, the results of this study also produce real-time data on bandwidth usage, logging problems, and resource availability. This can significantly improve network availability and security. \u00a9 2023 Universitas Mercu Buana."
+        ]
+    },
+    {
+        "judul":[
+            "Extraction Formula for Microstrip Antenna as Soil Water Content Sensor"
+        ],
+        "penulis":[
+            "Fauziah, MaritaaSend mail to Fauziah M.;",
+            "Pramudita, Aloysius AdyabSend mail to Pramudita A.A.;",
+            "Nugroho, Bambang SetiaaSend mail to Nugroho B.S."
+        ],
+        "sdgs":[
+            "Assessing and monitoring the soil fertility level relies on the crucial factor of soil water content, as it helps prevent late detection of water deficit, which could lead to crop failure. A cost-effective and efficient method to measure soil water content has been proposed in this research which using microstrip antenna as indirect measurement. The findings indicate that microstrip antenna have potential to serve as highly sensitivities sensors to precisely measure soil water content by analyze the electric characteristic of the soil, dielectric permittivity. As further investigation, it is essential to established connection between dielectric permittivity and the antenna parameter, specifically the resonant frequency. This research has successfully extracted a formula by examining the relationship between both parameters, enabling the estimation of soil water content percentage. This paper shows that extraction formula can be obtained by considering theoretical approaches, numerical results and the discrepancies between them. The research demonstrates the proposed microstrip antenna sensor and derived extraction formulation can achieve accurate detection of soil water content. \u00a9 2023 IEEE."
+        ],
+        "abstrak":[
+            "Assessing and monitoring the soil fertility level relies on the crucial factor of soil water content, as it helps prevent late detection of water deficit, which could lead to crop failure. A cost-effective and efficient method to measure soil water content has been proposed in this research which using microstrip antenna as indirect measurement. The findings indicate that microstrip antenna have potential to serve as highly sensitivities sensors to precisely measure soil water content by analyze the electric characteristic of the soil, dielectric permittivity. As further investigation, it is essential to established connection between dielectric permittivity and the antenna parameter, specifically the resonant frequency. This research has successfully extracted a formula by examining the relationship between both parameters, enabling the estimation of soil water content percentage. This paper shows that extraction formula can be obtained by considering theoretical approaches, numerical results and the discrepancies between them. The research demonstrates the proposed microstrip antenna sensor and derived extraction formulation can achieve accurate detection of soil water content. \u00a9 2023 IEEE."
+        ]
+    },
+    {
+        "judul":[
+            "A Comparative Analysis of the Yolo Models for Intelligent Lobster Surveillance Camera"
+        ],
+        "penulis":[
+            "Akhyar, FityanulaSend mail to Akhyar F.;",
+            "Novamizanti, LedyabSend mail to Novamizanti L.;",
+            "Usman, KorediantocSend mail to Usman K.;",
+            "Aditya, Ghanes MahesacSend mail to Aditya G.M.;",
+            "Hakim, Farhan NurcSend mail to Hakim F.N.;",
+            "Ilman, Mukhamad ZidnicSend mail to Ilman M.Z.;",
+            "Ramdhon, FerdidSend mail to Ramdhon F.;",
+            "Lin, Chih-YangeSend mail to Lin C.-Y."
+        ],
+        "sdgs":[
+            "In lobster farming, monitoring of lobsters is essential and must be performed. Aruna, one of the lobster trading startups in Indonesia, is still using manual monitoring by sending divers underwater to observe the progress of the lobsters. This way is considered less effective because it is done intermittently, only at certain times and in good weather conditions. In this study, we propose to investigate object detection for underwater surveillance cameras as a means of real-time monitoring and counting of lobsters. Underwater video data is fed into the proposed system based on a deep learning-based model. This system consists of three processes: image enhancement with WaterNet as noise reduction, object counting with the YOLOv6\/7\/8 model, and object tracking using StrongSORT. For details, we annotated the lobster data by head only and full body. Our test results show that YOLOv7, with head annotation, has stable mean Average Precision (mAP), making it suitable for the proposed system. Then, we implemented a combination of WaterNet, YOLOv7 and StrongSORT to the proposed system architecture for the Intelligent surveillance camera. \u00a9 2023 IEEE."
+        ],
+        "abstrak":[
+            "In lobster farming, monitoring of lobsters is essential and must be performed. Aruna, one of the lobster trading startups in Indonesia, is still using manual monitoring by sending divers underwater to observe the progress of the lobsters. This way is considered less effective because it is done intermittently, only at certain times and in good weather conditions. In this study, we propose to investigate object detection for underwater surveillance cameras as a means of real-time monitoring and counting of lobsters. Underwater video data is fed into the proposed system based on a deep learning-based model. This system consists of three processes: image enhancement with WaterNet as noise reduction, object counting with the YOLOv6\/7\/8 model, and object tracking using StrongSORT. For details, we annotated the lobster data by head only and full body. Our test results show that YOLOv7, with head annotation, has stable mean Average Precision (mAP), making it suitable for the proposed system. Then, we implemented a combination of WaterNet, YOLOv7 and StrongSORT to the proposed system architecture for the Intelligent surveillance camera. \u00a9 2023 IEEE."
+        ]
+    },
+    {
+        "judul":[
+            "FAILURE INVESTIGATION OF BLANK HOLDER FORCE (BHF) CONTROL IN THE OUTSIDE BRACKET FOR FRONT SEAT"
+        ],
+        "penulis":[
+            "Romansyah, Rofan Yuliana;",
+            "Budiarto, Hanif AzisaSend mail to Budiarto H.A.;",
+            "Erlangga, Yuliar Yasina;",
+            "Safrudin, Yunita Nugrahainib"
+        ],
+        "sdgs":[
+            "This study investigated the failure of the Blank Holder Force (BHF) control in the outside bracket for the front seat. The production process involved progressive dies consisting of nine stations: first pierce, first trim, second trim, idle, flange, idle, second pierce, idle, and parting. However, at the 7th-9th station, the pilot hole in the product deforms into an oval shape, which is undesirable. Gemba-Kaizen methods were used in this study, and primary data were collected by comparing the design and actual progressive dies. The results showed that product defects are primarily caused by an unbalanced BHF and inadequate piercing clearance. A uniform distribution of force during the forming process is obtained by reducing the spring number on the blank holder. This reduces the force generated during the process. Furthermore, the die clearance was increased from 0.01 mm to 0.1 mm, making press and die alignment less critical and requiring less cutting and stripping forces. \u00a9 2023, Intellectual Research and Development Education Foundation (YRPI). All rights reserved.",
+            "PlumX metricsPlumX metrics (opens in new window)"
+        ],
+        "abstrak":[
+            "This study investigated the failure of the Blank Holder Force (BHF) control in the outside bracket for the front seat. The production process involved progressive dies consisting of nine stations: first pierce, first trim, second trim, idle, flange, idle, second pierce, idle, and parting. However, at the 7th-9th station, the pilot hole in the product deforms into an oval shape, which is undesirable. Gemba-Kaizen methods were used in this study, and primary data were collected by comparing the design and actual progressive dies. The results showed that product defects are primarily caused by an unbalanced BHF and inadequate piercing clearance. A uniform distribution of force during the forming process is obtained by reducing the spring number on the blank holder. This reduces the force generated during the process. Furthermore, the die clearance was increased from 0.01 mm to 0.1 mm, making press and die alignment less critical and requiring less cutting and stripping forces. \u00a9 2023, Intellectual Research and Development Education Foundation (YRPI). All rights reserved."
+        ]
+    },
+    {
+        "judul":[
+            "Sport Tourism, Regional Development, and Urban Resilience: A Focus on Regional Economic Development in Lake Toba District, North Sumatra, Indonesia"
+        ],
+        "penulis":[
+            "Widianingsih, Idaa,bSend mail to Widianingsih I.;",
+            "Abdillah, AbdillahbSend mail to Abdillah A.;",
+            "Herawati, Ernab,c;",
+            "Dewi, Anggia Utamib,d;",
+            "Miftah, Ahmad Zainia,b;",
+            "Adikancana, Qinthara M.b,d;",
+            "Pratama, Masry Nandab;",
+            "Sasmono, Sudarmonob,e"
+        ],
+        "sdgs":[
+            "The focus of this research is to identify the dynamics of regional economic development through digital trends towards tourist visits and the promotion of tourist destinations in the Lake Toba area during the F1 Powerboat World Championship (F1H2O) event on Lake Toba, North Sumatra, Indonesia. Through the conduct of online research methods (ORMs) in diagnosing digital social issues and trends regarding the events, the results show that there was an effort to maximize the increase in regional economic development, by utilizing the potential and attractiveness of holding the F1 Powerboat as part of sports tourism. As an event aims to spur the movement of domestic tourists to super-priority destination areas, the implementation of the F1 Powerboat event is not only a driving force in the recovery and improvement of the local economy after the COVID-19 Pandemic, but also a venue for the promotion of other tourist destinations in North Sumatra. However, the positive impacts of this event organization on sustainable economic growth in the surrounding areas is not without reservations. The event has received some negative feedback, which include the problems of event preparation and implementation, and also the limited awareness of local community tourism. This research suggests that in order to achieve sustainable regional development and urban resilience, the future organization of sport tourism events should not only focus on the economic objectives, but also on the other aspects including socio-cultural and environmental perspectives. \u00a9 2023 by the authors.",
+            "Sustainable Development Goals mapped to this documentDecent work and economic growthGoal 8Responsible consumption and productionGoal 12Partnership for the goalsGoal 17",
+            "Sustainable Development Goals mapped to this document",
+            "PlumX metricsPlumX metrics (opens in new window)"
+        ],
+        "abstrak":[
+            "The focus of this research is to identify the dynamics of regional economic development through digital trends towards tourist visits and the promotion of tourist destinations in the Lake Toba area during the F1 Powerboat World Championship (F1H2O) event on Lake Toba, North Sumatra, Indonesia. Through the conduct of online research methods (ORMs) in diagnosing digital social issues and trends regarding the events, the results show that there was an effort to maximize the increase in regional economic development, by utilizing the potential and attractiveness of holding the F1 Powerboat as part of sports tourism. As an event aims to spur the movement of domestic tourists to super-priority destination areas, the implementation of the F1 Powerboat event is not only a driving force in the recovery and improvement of the local economy after the COVID-19 Pandemic, but also a venue for the promotion of other tourist destinations in North Sumatra. However, the positive impacts of this event organization on sustainable economic growth in the surrounding areas is not without reservations. The event has received some negative feedback, which include the problems of event preparation and implementation, and also the limited awareness of local community tourism. This research suggests that in order to achieve sustainable regional development and urban resilience, the future organization of sport tourism events should not only focus on the economic objectives, but also on the other aspects including socio-cultural and environmental perspectives. \u00a9 2023 by the authors."
+        ]
+    },
+    {
+        "judul":[
+            "EXAMINING INTENTION TO USE OF MOBILE TELEMEDICINE SERVICES AMONG INDONESIANS THROUGH MODIFIED TECHNOLOGY ACCEPTANCE MODEL: SURVEY STUDY"
+        ],
+        "penulis":[
+            "Khairani, DewiaSend mail to Khairani D.;",
+            "Sari, Puspita KencanabSend mail to Sari P.K.;",
+            "Shinta Oktaviana R.cSend mail to Shinta Oktaviana R.;",
+            "Hidayanto, Achmad NizardSend mail to Hidayanto A.N.;",
+            "Mintarsih, FitriaSend mail to Mintarsih F."
+        ],
+        "sdgs":[
+            "In developing countries, such as Indonesia, telemedicine services are becoming a more common means of providing basic healthcare. In this research, we applied the modified Technology Acceptance Model (TAM) to measuring factors affecting the adoption of mobile telemedicine in the Indonesian context. We collected data from 256 mobile telemedicine users and processed the data using Partial Least Square (PLS) technique. Some of our hypotheses contribute to describing the behavior intention to use mobile telemedicine, and it shows some agreement with previous research on perceived usefulness and user satisfaction on its impact on behavior intention to use. Perceived ease of use and privacy risk also show a similar result. The result shows that the most sought function on mobile telemedicine applications is searching and education (62.5%), so it is also important to highlight that health-educational and informative content is a significant aspect in increasing awareness and continuance intention to use telemedicine services among mobile telemedicine users. Technology anxiety affects the intention to use mobile telemedicine. However, the effect is not in accordance with the initial hypothesis. A better strategy is needed to increase the adoption rate of mobile telemedicine among elder users. ICIC International \u00a92023 ISSN 1881-803X.",
+            "PlumX metricsPlumX metrics (opens in new window)"
+        ],
+        "abstrak":[
+            "In developing countries, such as Indonesia, telemedicine services are becoming a more common means of providing basic healthcare. In this research, we applied the modified Technology Acceptance Model (TAM) to measuring factors affecting the adoption of mobile telemedicine in the Indonesian context. We collected data from 256 mobile telemedicine users and processed the data using Partial Least Square (PLS) technique. Some of our hypotheses contribute to describing the behavior intention to use mobile telemedicine, and it shows some agreement with previous research on perceived usefulness and user satisfaction on its impact on behavior intention to use. Perceived ease of use and privacy risk also show a similar result. The result shows that the most sought function on mobile telemedicine applications is searching and education (62.5%), so it is also important to highlight that health-educational and informative content is a significant aspect in increasing awareness and continuance intention to use telemedicine services among mobile telemedicine users. Technology anxiety affects the intention to use mobile telemedicine. However, the effect is not in accordance with the initial hypothesis. A better strategy is needed to increase the adoption rate of mobile telemedicine among elder users. ICIC International \u00a92023 ISSN 1881-803X."
+        ]
+    },
+    {
+        "judul":[
+            "Critical Factors of Immersive Learning in Higher Education: A Systematic Literature Review"
+        ],
+        "penulis":[
+            "SunardiaSend mail to Sunardi;",
+            "MeylianabSend mail to Meyliana;",
+            "Ramadhan, AriefcSend mail to Ramadhan A.;",
+            "Rosmansyah, YusepdSend mail to Rosmansyah Y."
+        ],
+        "sdgs":[
+            "Immersive learning has gained significant attention with the rising trend of spatial computing, particularly in the after-pandemic era. Numerous research has explored the potential of immersive learning in higher education, primarily on the educational sector. However, prior research has frequently focused too narrowly on the effects of technology and neglected to address the crucial element influencing successful immersive learning in higher education. This study seeks to pinpoint the crucial element contributing to the development of immersive learning experiences. The methodology uses a systematic literature review (SLR) from 2018 up to 2023 to investigate the critical factors of immersive Learning in Higher Education. From the 728 papers initially retrieved, 274 were considered potential candidates, and ultimately, 86 articles were selected based on their relevance to the research question. The results reveal that the critical factors include learning design, technology, immersion, engagement, interactivity, and usability. Academic interests will benefit from this SLR's consequences as institutions create models for designing suitable immersive learning, especially within the context of higher education. \u00a9 2023 IEEE.",
+            "PlumX metricsPlumX metrics (opens in new window)"
+        ],
+        "abstrak":[
+            "Immersive learning has gained significant attention with the rising trend of spatial computing, particularly in the after-pandemic era. Numerous research has explored the potential of immersive learning in higher education, primarily on the educational sector. However, prior research has frequently focused too narrowly on the effects of technology and neglected to address the crucial element influencing successful immersive learning in higher education. This study seeks to pinpoint the crucial element contributing to the development of immersive learning experiences. The methodology uses a systematic literature review (SLR) from 2018 up to 2023 to investigate the critical factors of immersive Learning in Higher Education. From the 728 papers initially retrieved, 274 were considered potential candidates, and ultimately, 86 articles were selected based on their relevance to the research question. The results reveal that the critical factors include learning design, technology, immersion, engagement, interactivity, and usability. Academic interests will benefit from this SLR's consequences as institutions create models for designing suitable immersive learning, especially within the context of higher education. \u00a9 2023 IEEE."
+        ]
+    },
+    {
+        "judul":[
+            "Designing Dashboard for Procurement with Circular Economy Concept Based on Enterprise Resource Planning System in MSMEs"
+        ],
+        "penulis":[
+            "Nurhasanah, Mutiara Salsabila PutriSend mail to Nurhasanah M.S.P.;",
+            "Ridwan, Ari YanuarSend mail to Ridwan A.Y.;",
+            "Septo Hediyanto, Umar Yunan KurniaSend mail to Septo Hediyanto U.Y.K."
+        ],
+        "sdgs":[
+            "The manufacturing sector positively impacts the Indonesian economy but concurrently contributes to industrial waste generation, posing environmental concerns. The government aims to establish a green industry by adopting the circular economy concept to address this. A system displaying process performance, considering ecological aspects, needs designing for successful implementation. Key Performance Indicators (KPIs) will be referenced during system development. A dashboard will be created to visualize these KPIs, integrating diverse data sources to empower decision- makers with meaningful insights. Implementing this dashboard will enhance efficiency in procurement, encompassing time management, cost optimization, and forecasting. By incorporating circular economy principles into procurement, Indonesia can support the growth of eco-friendly industries, emphasizing zero-waste production practices. The study will commence with an overview of implementing an ERP system with circular economy concepts for procurement, followed by a literature review to establish a theoretical foundation. The research methodology will then be elucidated, leading to the generation of KPI analysis and dashboard design. Ultimately, a conclusive summary will be provided. \u00a9 2023 IEEE.",
+            "Sustainable Development Goals mapped to this documentIndustry, innovation and infrastructureGoal 9Responsible consumption and productionGoal 12Partnership for the goalsGoal 17",
+            "Sustainable Development Goals mapped to this document",
+            "PlumX metricsPlumX metrics (opens in new window)"
+        ],
+        "abstrak":[
+            "The manufacturing sector positively impacts the Indonesian economy but concurrently contributes to industrial waste generation, posing environmental concerns. The government aims to establish a green industry by adopting the circular economy concept to address this. A system displaying process performance, considering ecological aspects, needs designing for successful implementation. Key Performance Indicators (KPIs) will be referenced during system development. A dashboard will be created to visualize these KPIs, integrating diverse data sources to empower decision- makers with meaningful insights. Implementing this dashboard will enhance efficiency in procurement, encompassing time management, cost optimization, and forecasting. By incorporating circular economy principles into procurement, Indonesia can support the growth of eco-friendly industries, emphasizing zero-waste production practices. The study will commence with an overview of implementing an ERP system with circular economy concepts for procurement, followed by a literature review to establish a theoretical foundation. The research methodology will then be elucidated, leading to the generation of KPI analysis and dashboard design. Ultimately, a conclusive summary will be provided. \u00a9 2023 IEEE."
+        ]
+    },
+    {
+        "judul":[
+            "Classification of Epileptic EEG Signal Using MSLD Entropy"
+        ],
+        "penulis":[
+            "Rizal, AchmadaSend mail to Rizal A.;",
+            "Wijayanto, Inunga;",
+            "Hadiyoso, Sugondob;",
+            "Fuadah, Yunendah Nurc;",
+            "Lim, Ki Mood;",
+            "Triwiyanto, Triwiyantoe"
+        ],
+        "sdgs":[
+            "Epilepsy is the most common neurological disorder characterized by recurrent seizures due to the abnormality of brain neuronal discharge. One of the tools to help neurologists diagnose epilepsy relies on EEG signals extensively because it can represent the brain's neuron activity. Due to the EEG signal being considered a complex biological signal, the signal complexity-based feature extraction method is suitable for characterizing epileptic EEG signals. One method for extracting EEG signals is entropy which is able to quantify signal complexity. Several previously proposed methods were wavelet entropy and IMF entropy. This study proposed multi-distance signal level difference (MSLD) entropy as a feature extraction method to extract the EEG signal complexity. The decomposed signal from MSLD was then extracted using entropy measurement. In the classification process, a Support Vector Machine (SVM) was applied to classify the normal, pre-ictal, and ictal signals of EEG signals. The highest accuracy of 96% was obtained using cubic SVM as the classifier. The proposed method provides an alternative method for analyzing EEG or other biomedical signals based on signal complexity. \u00a9 2023, The Author(s), under exclusive license to Springer Nature Singapore Pte Ltd.",
+            "PlumX metricsPlumX metrics (opens in new window)"
+        ],
+        "abstrak":[
+            "Epilepsy is the most common neurological disorder characterized by recurrent seizures due to the abnormality of brain neuronal discharge. One of the tools to help neurologists diagnose epilepsy relies on EEG signals extensively because it can represent the brain's neuron activity. Due to the EEG signal being considered a complex biological signal, the signal complexity-based feature extraction method is suitable for characterizing epileptic EEG signals. One method for extracting EEG signals is entropy which is able to quantify signal complexity. Several previously proposed methods were wavelet entropy and IMF entropy. This study proposed multi-distance signal level difference (MSLD) entropy as a feature extraction method to extract the EEG signal complexity. The decomposed signal from MSLD was then extracted using entropy measurement. In the classification process, a Support Vector Machine (SVM) was applied to classify the normal, pre-ictal, and ictal signals of EEG signals. The highest accuracy of 96% was obtained using cubic SVM as the classifier. The proposed method provides an alternative method for analyzing EEG or other biomedical signals based on signal complexity. \u00a9 2023, The Author(s), under exclusive license to Springer Nature Singapore Pte Ltd."
+        ]
+    },
+    {
+        "judul":[
+            "Web Application Firewall Using Proxy and Security Information and Event Management (SIEM) for OWASP Cyber Attack Detection"
+        ],
+        "penulis":[
+            "Rahmawati, TiaSend mail to Rahmawati T.;",
+            "Shiddiq, Rama WijayaSend mail to Shiddiq R.W.;",
+            "Sumpena, Mochamad RizalSend mail to Sumpena M.R.;",
+            "Setiawan, ShendySend mail to Setiawan S.;",
+            "Karna, NyomanSend mail to Karna N.;",
+            "Hertiana, Sofia NaningSend mail to Hertiana S.N."
+        ],
+        "sdgs":[
+            "Web applications face increasing security threats, with a 210% rise in attacks in 2022 compared to 2020, including 172 daily attacks per website and 2,306 weekly bot accesses. The most prevalent vulnerabilities are Cross-Site Scripting (XSS) affecting 1 million websites and SQL injection impacting 332,000 pages. To address these issues, a WordPress plugin is designed, integrating Security Information and Event Management (SIEM) and a proxy-based Web Application Firewall (WAF). The proxy based WAF enhances website security by detecting and blocking malicious requests based on OWASP rules, while SIEM collects and simplifies security data from various sources. This system effectively identifies XSS at 100%, SQL Injection at 97%, and Local File Inclusion (LFI) at 74% according to OWASP standards. \u00a9 2023 IEEE.",
+            "PlumX metricsPlumX metrics (opens in new window)"
+        ],
+        "abstrak":[
+            "Web applications face increasing security threats, with a 210% rise in attacks in 2022 compared to 2020, including 172 daily attacks per website and 2,306 weekly bot accesses. The most prevalent vulnerabilities are Cross-Site Scripting (XSS) affecting 1 million websites and SQL injection impacting 332,000 pages. To address these issues, a WordPress plugin is designed, integrating Security Information and Event Management (SIEM) and a proxy-based Web Application Firewall (WAF). The proxy based WAF enhances website security by detecting and blocking malicious requests based on OWASP rules, while SIEM collects and simplifies security data from various sources. This system effectively identifies XSS at 100%, SQL Injection at 97%, and Local File Inclusion (LFI) at 74% according to OWASP standards. \u00a9 2023 IEEE."
+        ]
+    },
+    {
+        "judul":[
+            "Extended Stochastic Coati Optimizer"
+        ],
+        "penulis":[
+            "Kusuma, Purba DaruSend mail to Kusuma P.D.;",
+            "Dinimaharawati, Ashri"
+        ],
+        "sdgs":[
+            "A new metaheuristic can be developed by constructing from scratch, modifying the existing metaheuristics, or hybridizing some metaheuristics. This work presents a new metaheuristic: extended stochastic coati optimizer (ESCO). ESCO is developed by expanding the shortcoming coati optimization algorithm (COA). ESCO expands the number of searches and references used in COA. ESCO also implements a stochastic process for each unit to choose the searches that will perform. It differs from COA, which splits the population into two fixed groups, each performing its strategy. ESCO implements three sequential phases in every iteration. Two options can be chosen in every phase. ESCO has three references in its guided search: the global best unit, a randomly selected unit, and a randomized unit within the search space. In this work, ESCO is challenged to solve 23 classic functions and benchmarked with five shortcoming metaheuristics: guided pelican algorithm (GPA), puzzle optimization algorithm (POA), average subtraction-based optimizer (ASBO), and coati optimization algorithm (COA). The result presents the superiority of ESCO among five shortcoming metaheuristics by outperforming the GPA, POA, GSO, ASBO, and COA in solving 13, 21, 23, 16, and 13 functions, respectively. Through investigation, the multiple search approach is more effective than the single search approach \u00a9 2023, International Journal of Intelligent Engineering and Systems.All Rights Reserved.",
+            "PlumX metricsPlumX metrics (opens in new window)"
+        ],
+        "abstrak":[
+            "A new metaheuristic can be developed by constructing from scratch, modifying the existing metaheuristics, or hybridizing some metaheuristics. This work presents a new metaheuristic: extended stochastic coati optimizer (ESCO). ESCO is developed by expanding the shortcoming coati optimization algorithm (COA). ESCO expands the number of searches and references used in COA. ESCO also implements a stochastic process for each unit to choose the searches that will perform. It differs from COA, which splits the population into two fixed groups, each performing its strategy. ESCO implements three sequential phases in every iteration. Two options can be chosen in every phase. ESCO has three references in its guided search: the global best unit, a randomly selected unit, and a randomized unit within the search space. In this work, ESCO is challenged to solve 23 classic functions and benchmarked with five shortcoming metaheuristics: guided pelican algorithm (GPA), puzzle optimization algorithm (POA), average subtraction-based optimizer (ASBO), and coati optimization algorithm (COA). The result presents the superiority of ESCO among five shortcoming metaheuristics by outperforming the GPA, POA, GSO, ASBO, and COA in solving 13, 21, 23, 16, and 13 functions, respectively. Through investigation, the multiple search approach is more effective than the single search approach \u00a9 2023, International Journal of Intelligent Engineering and Systems.All Rights Reserved."
+        ]
+    },
+    {
+        "judul":[
+            "Initial Estimation Passenger Number using YOLO-NAS"
+        ],
+        "penulis":[
+            "Sari, Marlindia IkeaSend mail to Sari M.I.;",
+            "Ibnugraha, Prajna DeshantaaSend mail to Ibnugraha P.D.;",
+            "Sani, Muhammad IkhsanaSend mail to Sani M.I.;",
+            "Rizal, Moch FahruaSend mail to Rizal M.F.;",
+            "Hanifa, Fanni HusnulaSend mail to Hanifa F.H.;",
+            "Kurniawan, Aris Pujudb"
+        ],
+        "sdgs":[
+            "The Automation Passenger Counting (APC) system is a key point in transportation, especially in public transportation. It can help the company and passengers estimate the capacity of public transportation and estimate travel times. APC was developed in various ways, including utilizing deep learning. In this study, we do initial research to estimate the number of passengers based on people detection using YOLO-NAS. We compare three types of architecture of YOLO-NAS and different confidence scores. Medium architecture gave the best results, with an average accuracy of 95% and 92.226% for the rear and front views, respectively. Meanwhile, high confidence scores can detect smaller objects but increase false detection. Otherwise, small confidence scores lower false detection but fail to detect small objects and give low estimation numbers. A confidence score of 0.7 has the highest accuracy but has the smallest number of detected people.  \u00a9 2023 IEEE."
+        ],
+        "abstrak":[
+            "The Automation Passenger Counting (APC) system is a key point in transportation, especially in public transportation. It can help the company and passengers estimate the capacity of public transportation and estimate travel times. APC was developed in various ways, including utilizing deep learning. In this study, we do initial research to estimate the number of passengers based on people detection using YOLO-NAS. We compare three types of architecture of YOLO-NAS and different confidence scores. Medium architecture gave the best results, with an average accuracy of 95% and 92.226% for the rear and front views, respectively. Meanwhile, high confidence scores can detect smaller objects but increase false detection. Otherwise, small confidence scores lower false detection but fail to detect small objects and give low estimation numbers. A confidence score of 0.7 has the highest accuracy but has the smallest number of detected people.  \u00a9 2023 IEEE."
+        ]
+    }
+]
