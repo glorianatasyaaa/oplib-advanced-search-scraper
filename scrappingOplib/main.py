@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 from oplib import OpenLibrary, AdvancedSearchType
+from preprocessOplib import PreprocessLibrary
 import pandas as pd
 import datetime
 import json
@@ -18,7 +19,7 @@ if __name__ == "__main__":
     month = current_date.month
     day = current_date.day
 
-    one_month_ago = current_date - datetime.timedelta(days=30)
+    one_month_ago = current_date - datetime.timedelta(days=90)
 
     year2 = one_month_ago.year
     month2 = one_month_ago.month
@@ -81,13 +82,36 @@ if __name__ == "__main__":
 
         # print(f'\nFinish Scraping all {file} data!\nfile name :  {file_name}\n\n')
 
+        #Lakukan preprocess
+        # Lakukan preprocess
+        try:
+            df = df.rename(columns={'title': 'Judul', 'author': 'Penulis1', 'lecturer': 'Penulis2', 'publish_year': 'Tahun', 'abstract': 'Abstrak'})
+            df = df[["Judul", "Penulis1", "Penulis2", "Tahun", "Abstrak"]]
+
+            df = df.dropna()
+
+            df['Abstrak'] = df['Abstrak'].apply(preprocessOplib.cleaningAbstrak)
+            df['Judul'] = df['Judul'].apply(preprocessOplib.cleaningJudul)
+            df["Penulis1"] = df["Penulis1"].apply(preprocessOplib.cleaningPenulis)
+            df["Penulis"] = df["Penulis1"] + ", " + df["Penulis2"]
+            df = df.drop(["Penulis1", "Penulis2"], axis=1)
+            df = df[["Judul", "Tahun", "Abstrak", "Penulis"]]
+            df["Tahun"] = df["Tahun"].astype(int)
+
+            df['Abstrak'] = df['Abstrak'].replace('', np.nan)
+            df['Judul'] = df['Judul'].replace('', np.nan)
+            df = df.dropna()
+
+            df = df[["Judul", "Penulis", "Tahun", "Abstrak"]]
+
+            # Save preprocessed JSON File
+            preprocessed_file_name = f'preprocessedOplib_{start_day}-{start_month}-{start_year}_{end_day}-{end_month}-{end_year}_{file}.json'
+            df.to_json(preprocessed_file_name, orient='records')
+
+            print(f'\nFinish Preprocessing all {file} data!\nfile name : {preprocessed_file_name}\n\n')
+
+        except Exception as e:
+            print("Terjadi error:", str(e))
         #Save JSON File
-        file_name = f'{start_day}-{start_month}-{start_year}_{end_day}-{end_month}-{end_year}_{file}.json'
-
-        # Menyimpan data ke file JSON
-        df.to_json(file_name, orient='records')
-
-        print(f'\nFinish Scraping all {file} data!\nfile name :  {file_name}\n\n')
         
-
 

@@ -79,7 +79,7 @@ def cleaningPenulis(text):
 
 if __name__ == "__main__":
     try:
-        df = pd.read_json("preprocessOplib/skripsiOplib.json")
+        df = pd.read_json("scrappingOplib/contoh hasil keluaran_skripsi.json")
 
         df = df.rename(columns={'title': 'Judul', 'author':'Penulis1','lecturer':'Penulis2','publish_year':'Tahun','abstract':'Abstrak'})
         df = df[["Judul","Penulis1","Penulis2","Tahun","Abstrak"]]
@@ -100,7 +100,7 @@ if __name__ == "__main__":
 
         df = df[["Judul","Penulis","Tahun","Abstrak"]]
 
-        df.to_json('df_oplib_nolabel.json', orient='records')
+        df.to_json('preprocessOplib/df_oplib_skripsi_nolabel.json', orient='records')
 
     except Exception as e:
         print("Terjadi error:",str(e))

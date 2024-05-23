@@ -4,6 +4,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
+import datetime
 import pandas as pd
 import time
 
@@ -51,6 +52,13 @@ def login_elsevier(username,password):
 
 # Fungsi untuk mendapatkan link artikel dari halaman SINTA
 def get_article_links(driver, url, num_pages):
+    # Mengambil tahun sekarang
+    current_year = datetime.datetime.now().year
+
+    # Mengurangi tahun sekarang dengan 1
+    target_year = 2021
+    done = False
+
     # Membuka halaman target di SINTA
     driver.get(url)
 
@@ -60,21 +68,48 @@ def get_article_links(driver, url, num_pages):
     # List untuk menyimpan link artikel dari semua halaman
     all_article_links = []
 
+    all_years = []
+
     # Loop melalui setiap halaman
     for _ in range(num_pages):
+        x = 0
         # Menggunakan BeautifulSoup untuk mengekstrak konten
         soup = BeautifulSoup(driver.page_source, 'html.parser')
+
+        # Mengambil semua tahun dari setiap link
+        years = []
+        ar_years = soup.find_all('a', class_='ar-year')
+        for ar_year in ar_years:
+            x += 1
+            year = int(ar_year.text.strip()) # Mengonversi tahun menjadi integer
+            if year <= target_year:
+                x -= 1
+                done = True
+                break
+            years.append(year)
         
+        all_years.extend(years)
+
         # Mengambil semua link dari setiap judul artikel dalam div dengan class "ar-title"
         article_links = []
         ar_titles = soup.find_all('div', class_='ar-title')
-        for ar_title in ar_titles:
-            link = ar_title.find('a')['href']
+        print(x)
+        for i in range(x):
+            link = ar_titles[i].find('a')['href']
             article_links.append(link)
-        
+
         # Menambahkan link artikel dari halaman ini ke dalam list semua artikel
         all_article_links.extend(article_links)
-        
+
+        if done:
+            break
+
+        # Mengecek apakah tahun pada halaman tersebut kurang dari atau sama dengan tahun hasil pengurangan
+        if any(year <= target_year for year in years):
+            # years = [year for year in years if year >= target_year]
+            all_years.extend(years)
+            break
+
         # Cek apakah ada tombol "Next" untuk navigasi ke halaman berikutnya
         next_button = driver.find_element(By.XPATH, "//a[contains(@class,'page-link') and contains(text(),'Next')]")
         if next_button.get_attribute("href"):
@@ -85,15 +120,16 @@ def get_article_links(driver, url, num_pages):
         else:
             # Jika tidak ada tombol "Next", keluar dari loop
             break
-    
-    return all_article_links
+
+    return all_article_links, all_years
     
 
-def scrape_article(driver, article_links):
+def scrape_article(driver, article_links, article_years):
 
     result = {
         "judul": [],
         "penulis": [],
+        "tahun" : [],
         "sdgs": [],
         "abstrak": []
     }
@@ -107,19 +143,32 @@ def scrape_article(driver, article_links):
     for link in article_links:
         # Membuka halaman artikel di Elsevier
         driver.get(link)
-        time.sleep()
+        time.sleep(3)
+        penulisBanyak = []
 
         # Menggunakan BeautifulSoup untuk mengekstrak konten dari halaman artikel
         soup = BeautifulSoup(driver.page_source, 'html.parser')
 
         judul.append([h2.get_text(strip=True) for h2 in soup.find_all('h2', class_='Typography-module__lVnit Typography-module__o9yMJ Typography-module__JqXS9 Typography-module__ETlt8')])
-        ul_element = soup.find('ul', class_='ul--horizontal margin-size-0')
-        penulis.append([li.get_text(strip=True) for li in soup.find('ul', class_='ul--horizontal margin-size-0').find_all('li')])
         abstrak.append([p.get_text(strip=True) for p in soup.find_all('p', class_='Typography-module__lVnit Typography-module__ETlt8 Typography-module__GK8Sg')])
         sdgs.append([div.get_text(strip=True) for div in soup.find_all('div', class_='margin-size-16-b')])
+        # Mencari semua elemen span di dalam div dengan kelas yang sesuai
+        div_elements = soup.find_all('div', class_='col-24 col-lg-18 col-xl-16')
+
+        # Loop melalui setiap elemen div yang ditemukan
+        for div_element in div_elements:
+            # Mencari semua elemen span di dalam div
+            spans = div_element.find_all('span', class_='Typography-module__lVnit Typography-module__Nfgvc Button-module__Imdmt')
+            # Loop melalui setiap elemen span dan menyimpan nilainya
+            for span in spans:
+                penulisBanyak.append(span.text)
+
+        # Tampilkan nilai-nilai yang ditemukan
+        penulis.append(";".join(penulisBanyak))
 
     result["judul"] = judul
     result["penulis"] = penulis
+    result["tahun"] = article_years
     result["abstrak"] = abstrak
     result["sdgs"] = sdgs
 
@@ -138,15 +187,16 @@ if __name__ == "__main__":
         password_elsevier = "dayak1352"
 
         # Jumlah halaman yang ingin Anda scrap dari SINTA
-        num_pages = 1
+        num_pages = 2
 
         # Login ke SINTA
         driver = login_sinta(username_sinta, password_sinta)
 
         # Jika login berhasil ke SINTA, dapatkan link artikel dari halaman target di SINTA
-        target_url_sinta = 'https://sinta.kemdikbud.go.id/affiliations/profile/1093'
-        article_links = get_article_links(driver, target_url_sinta, num_pages)
+        target_url_sinta = 'https://sinta.kemdikbud.go.id/affiliations/profile/1093?page=110&view=scopus'
+        article_links, article_years = get_article_links(driver, target_url_sinta, num_pages)
         print(article_links)
+        print(article_years)
 
         # Tutup browser SINTA
         driver.quit()
@@ -156,7 +206,7 @@ if __name__ == "__main__":
             driver_elsevier = login_elsevier(username_elsevier, password_elsevier)
 
             # Lakukan scraping pada setiap artikel di Elsevier
-            result = scrape_article(driver_elsevier, article_links)
+            result = scrape_article(driver_elsevier, article_links, article_years)
 
             # Tutup browser Elsevier
             driver_elsevier.quit()
@@ -165,6 +215,6 @@ if __name__ == "__main__":
         df = pd.DataFrame(result)
 
         # Menyimpan DataFrame sebagai file JSON
-        df.to_json('result.json', orient='records', indent=4)
+        df.to_json('2022.json', orient='records', indent=4)
     except Exception as e:
         print("Terjadi error:",str(e))

@@ -20,6 +20,7 @@ class OpenLibrary:
         self.session = requests.Session()
 
     def get_all_data_from_range_date(self, **search_options) -> str:
+        print(f'{self.base_url}/home/catalog.html')
         response = self.session.post(f'{self.base_url}/home/catalog.html', data=search_options)
         response.raise_for_status()
 
@@ -27,6 +28,7 @@ class OpenLibrary:
     
     def get_pagination(self, content: str) -> list:
         parsed = BeautifulSoup(content, "html.parser")
+        print(parsed)
         
         paginations = parsed \
             .find("div", class_="pagination-imtelkom") \
