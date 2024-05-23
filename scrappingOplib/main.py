@@ -3,11 +3,13 @@
 from oplib import OpenLibrary, AdvancedSearchType
 from preprocessOplib import PreprocessLibrary
 import pandas as pd
+import numpy as np
 import datetime
 import json
 
 if __name__ == "__main__":
     oplib = OpenLibrary()
+    preprocess = PreprocessLibrary()
 
     # TODO: Change the search options based on your needs
 
@@ -19,7 +21,7 @@ if __name__ == "__main__":
     month = current_date.month
     day = current_date.day
 
-    one_month_ago = current_date - datetime.timedelta(days=90)
+    one_month_ago = current_date - datetime.timedelta(days=30)
 
     year2 = one_month_ago.year
     month2 = one_month_ago.month
@@ -85,14 +87,15 @@ if __name__ == "__main__":
         #Lakukan preprocess
         # Lakukan preprocess
         try:
+            df = pd.read_json("contoh hasil keluaran_skripsi.json")
             df = df.rename(columns={'title': 'Judul', 'author': 'Penulis1', 'lecturer': 'Penulis2', 'publish_year': 'Tahun', 'abstract': 'Abstrak'})
             df = df[["Judul", "Penulis1", "Penulis2", "Tahun", "Abstrak"]]
 
             df = df.dropna()
 
-            df['Abstrak'] = df['Abstrak'].apply(preprocessOplib.cleaningAbstrak)
-            df['Judul'] = df['Judul'].apply(preprocessOplib.cleaningJudul)
-            df["Penulis1"] = df["Penulis1"].apply(preprocessOplib.cleaningPenulis)
+            df['Abstrak'] = df['Abstrak'].apply(preprocess.cleaningAbstrak)
+            df['Judul'] = df['Judul'].apply(preprocess.cleaningJudul)
+            df["Penulis1"] = df["Penulis1"].apply(preprocess.cleaningPenulis)
             df["Penulis"] = df["Penulis1"] + ", " + df["Penulis2"]
             df = df.drop(["Penulis1", "Penulis2"], axis=1)
             df = df[["Judul", "Tahun", "Abstrak", "Penulis"]]
@@ -106,8 +109,8 @@ if __name__ == "__main__":
 
             # Save preprocessed JSON File
             preprocessed_file_name = f'preprocessedOplib_{start_day}-{start_month}-{start_year}_{end_day}-{end_month}-{end_year}_{file}.json'
-            df.to_json(preprocessed_file_name, orient='records')
-
+            df.to_json("TestingData", orient='records')
+            # print("Beres")
             print(f'\nFinish Preprocessing all {file} data!\nfile name : {preprocessed_file_name}\n\n')
 
         except Exception as e:
