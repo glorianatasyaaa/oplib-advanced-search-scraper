@@ -12,6 +12,18 @@ from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 def list_to_string(lst):
     return ' '.join(lst)
 
+# Menggabungkan nama pertama dan nama terakhir penulis
+def cleaningPenulis(names):
+    cleaned_names = []
+    for name in names:
+        parts = name.strip().split(',')
+        if len(parts) == 2:  # Pastikan entri memiliki format yang diharapkan
+            cleaned_names.append(parts[1].strip() + ' ' + parts[0].strip())
+        else:
+            # Jika tidak sesuai format, anggap hanya memiliki satu nama (nama pertama)
+            cleaned_names.append(parts[0].strip())
+    return cleaned_names
+
 def cleaningAbstrakTahap1(text):
     text = str(text)
 
@@ -116,6 +128,17 @@ if __name__ == "__main__":
         df['abstrak'] = df['abstrak'].apply(list_to_string)
         df['judul'] = df['judul'].apply(list_to_string)
 
+        # Menghapus "Save all to author list" dari kolom penulis
+        df['penulis'] = df['penulis'].apply(lambda x: x.replace('Save all to author list', ''))
+
+        # Memisahkan nama-nama penulis berdasarkan pemisah ;
+        df['penulis'] = df['penulis'].apply(lambda x: x.split(';'))
+
+        df['penulis'] = df['penulis'].apply(cleaningPenulis)
+
+        # Menyatukan nama-nama penulis dalam satu list
+        df['penulis'] = df['penulis'].apply(lambda x: ', '.join(x))
+
         df = df.dropna()
 
         df['abstrak'] = df['abstrak'].apply(cleaningAbstrakTahap1)
@@ -129,7 +152,7 @@ if __name__ == "__main__":
         df['aspects'] = df['aspects'].apply(lambda y: np.nan if len(y)==0 else y)
         df = df.drop(["sdgs"],axis=1)
 
-        df = df.rename(columns={'aspects': 'Aspects','judul':'Judul','penulis':'Penulis','abstrak':'Abstrak'})
+        df = df.rename(columns={'aspects': 'Aspects','judul':'Judul','penulis':'Penulis','abstrak':'Abstrak','tahun':'Tahun'})
 
         df_sinta = df.loc[df['Aspects'].isnull()]
 
@@ -154,7 +177,7 @@ if __name__ == "__main__":
 
         df = df.drop(['Aspects'],axis = 1)
 
-        df.to_json('df_sinta_berlabel.json', orient='records')
+        df.to_json('preprocessSinta/df_sinta_berlabel.json', orient='records')
 
     except Exception as e:
         print("Terjadi error:",str(e))
