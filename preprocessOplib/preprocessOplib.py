@@ -4,18 +4,18 @@ import matplotlib.pyplot as plt
 import re
 from bs4 import BeautifulSoup
 
-from Sastrawi.StopWordRemover.StopWordRemoverFactory import StopWordRemoverFactory, StopWordRemover, ArrayDictionary
-from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
+# from Sastrawi.StopWordRemover.StopWordRemoverFactory import StopWordRemoverFactory, StopWordRemover, ArrayDictionary
+# from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 
 def cleaningAbstrak(text):
 
     #Membuat stemmer sastrawi
-    factory = StemmerFactory()
-    stemmer = factory.create_stemmer()
+    # factory = StemmerFactory()
+    # stemmer = factory.create_stemmer()
 
-    # #Membuat stopword sastrawi
-    factory = StopWordRemoverFactory()
-    stopword = factory.create_stop_word_remover()
+    # # #Membuat stopword sastrawi
+    # factory = StopWordRemoverFactory()
+    # stopword = factory.create_stop_word_remover()
 
     text = str(text)
 
@@ -37,11 +37,11 @@ def cleaningAbstrak(text):
     # Mengganti baris baru (enter) dengan spasi
     text = re.sub("\n", " ", text)
 
-    #Menghapus kata stopword dengan library sastrawi
-    text = stopword.remove(text)
+    # #Menghapus kata stopword dengan library sastrawi
+    # text = stopword.remove(text)
 
-    #Melakukan stemming dengan library sastrawi
-    text = stemmer.stem(text)
+    # #Melakukan stemming dengan library sastrawi
+    # text = stemmer.stem(text)
 
     # Menghapus Spasi Yang Lebih Dari Satu
     text = re.sub('(s{2,})', ' ', text)
