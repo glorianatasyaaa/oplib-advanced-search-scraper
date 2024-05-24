@@ -4,84 +4,94 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
-import datetime
-import pandas as pd
 import time
+import pandas as pd
+import datetime
+import random
+import undetected_chromedriver as uc
 
-# Fungsi untuk melakukan login ke SINTA menggunakan Selenium
-def login_sinta(username, password):
-    # Mengatur opsi browser
+user_agents = [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+    "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:89.0) Gecko/20100101 Firefox/89.0",
+    # Add more user agents if necessary
+]
+
+def random_delay(min_seconds=2, max_seconds=5):
+    time.sleep(random.uniform(min_seconds, max_seconds))
+
+def get_random_user_agent():
+    return random.choice(user_agents)
+
+def create_driver():
     options = webdriver.ChromeOptions()
     options.add_argument('--ignore-certificate-errors')
     options.add_argument('--ignore-ssl-errors')
-    # Membuka browser Chrome
-    driver = webdriver.Chrome(options=options)
+    options.add_argument('--no-sandbox')
+    options.add_argument('--disable-dev-shm-usage')
+    options.add_argument('--disable-blink-features=AutomationControlled')
+    options.add_argument(f'user-agent={get_random_user_agent()}')
     
-    # Membuka halaman login SINTA
-    driver.get("https://sinta.kemdikbud.go.id/logins")
+    driver = uc.Chrome(options=options)
+    return driver
 
-    # Memasukkan username dan password
+# Function to perform human-like interactions
+def perform_human_interaction(driver):
+    actions = webdriver.ActionChains(driver)
+    actions.move_by_offset(random.randint(0, 100), random.randint(0, 100))
+    actions.perform()
+    random_delay()
+    driver.execute_script("window.scrollBy(0, {});".format(random.randint(200, 800)))
+    random_delay()
+
+# Function to login to SINTA using Selenium
+def login_sinta(driver, username, password):
+    driver.get("https://sinta.kemdikbud.go.id/logins")
     driver.find_element(By.NAME, "username").send_keys(username)
     driver.find_element(By.NAME, "password").send_keys(password)
-
-    # Mengklik tombol login
     driver.find_element(By.CSS_SELECTOR, "button[type='submit']").click()
-
     return driver
 
-def login_elsevier(username,password):
-    options = webdriver.ChromeOptions()
-    options.add_argument('--ignore-certificate-errors')
-    options.add_argument('--ignore-ssl-errors')
-    # Membuka browser Chrome
-    driver = webdriver.Chrome(options=options)
-
+# Function to login to Elsevier using Selenium
+def login_elsevier(driver, username, password):
     driver.get("https://id.elsevier.com/as/authorization.oauth2?platSite=SC%2Fscopus&ui_locales=en-US&scope=openid+profile+email+els_auth_info+els_analytics_info+urn%3Acom%3Aelsevier%3Aidp%3Apolicy%3Aproduct%3Aindv_identity&els_policy=idp_policy_indv_identity_plus&response_type=code&redirect_uri=https%3A%2F%2Fwww.scopus.com%2Fauthredirect.uri%3FtxGid%3De5949ec1f7f8942be40f031fec9c4705&state=userLogin%7CtxId%3DBFEEEC06342ACB062CC06964CAAFD770.i-091fb6f4d2a483d2a%3A5&authType=SINGLE_SIGN_IN&prompt=login&client_id=SCOPUS")
-    time.sleep(1)
-    driver.find_element(By.CSS_SELECTOR, "button[id='onetrust-accept-btn-handler']").click()
-    time.sleep(1)
+    WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.ID, 'onetrust-accept-btn-handler'))).click()
+    random_delay()
     driver.find_element(By.ID, "bdd-email").send_keys(username)
-    time.sleep(1)
+    random_delay()
     driver.find_element(By.CSS_SELECTOR, "button[value='emailContinue']").click()
-    time.sleep(1)
+    
+    # Wait for the password field to be visible and type it
+    WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.ID, "bdd-password")))
+    random_delay()
     driver.find_element(By.ID, "bdd-password").send_keys(password)
-    time.sleep(1)
+    
+    # Wait for the sign-in button to be enabled and clickable
+    WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button[value='signin']")))
+    random_delay()
     driver.find_element(By.CSS_SELECTOR, "button[value='signin']").click()
-
     return driver
 
-# Fungsi untuk mendapatkan link artikel dari halaman SINTA
+# Function to get article links from SINTA
 def get_article_links(driver, url, num_pages):
-    # Mengambil tahun sekarang
     current_year = datetime.datetime.now().year
-
-    # Mengurangi tahun sekarang dengan 1
     target_year = 2021
     done = False
 
-    # Membuka halaman target di SINTA
     driver.get(url)
-
-    # Menggunakan WebDriverWait untuk menunggu hingga elemen pertama muncul
-    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, "ar-title")))
-
-    # List untuk menyimpan link artikel dari semua halaman
+    WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CLASS_NAME, "ar-title")))
+    
     all_article_links = []
-
     all_years = []
 
-    # Loop melalui setiap halaman
     for _ in range(num_pages):
         x = 0
-        # Menggunakan BeautifulSoup untuk mengekstrak konten
         soup = BeautifulSoup(driver.page_source, 'html.parser')
-
-        # Mengambil semua tahun dari setiap link
         years = []
         ar_years = soup.find_all('a', class_='ar-year')
         for ar_year in ar_years:
             x += 1
-            year = int(ar_year.text.strip()) # Mengonversi tahun menjadi integer
+            year = int(ar_year.text.strip())
             if year <= target_year:
                 x -= 1
                 done = True
@@ -89,47 +99,32 @@ def get_article_links(driver, url, num_pages):
             years.append(year)
         
         all_years.extend(years)
-
-        # Mengambil semua link dari setiap judul artikel dalam div dengan class "ar-title"
         article_links = []
         ar_titles = soup.find_all('div', class_='ar-title')
-        print(x)
         for i in range(x):
             link = ar_titles[i].find('a')['href']
             article_links.append(link)
-
-        # Menambahkan link artikel dari halaman ini ke dalam list semua artikel
+            if len(article_links) == 5:
+                article_links.append("https://nowsecure.nl/")
+        
         all_article_links.extend(article_links)
-
         if done:
             break
-
-        # Mengecek apakah tahun pada halaman tersebut kurang dari atau sama dengan tahun hasil pengurangan
         if any(year <= target_year for year in years):
-            # years = [year for year in years if year >= target_year]
             all_years.extend(years)
             break
-
-        # Cek apakah ada tombol "Next" untuk navigasi ke halaman berikutnya
-        next_button = driver.find_element(By.XPATH, "//a[contains(@class,'page-link') and contains(text(),'Next')]")
-        if next_button.get_attribute("href"):
-            # Jika ada, klik tombol "Next"
-            next_button.click()
-            # Tunggu beberapa saat agar halaman selanjutnya dimuat sepenuhnya
-            time.sleep(3)
-        else:
-            # Jika tidak ada tombol "Next", keluar dari loop
+        try:
+            driver.find_element(By.XPATH, "//a[contains(@class,'page-link') and contains(text(),'Next')]").click()
+        except:
             break
-
     return all_article_links, all_years
-    
 
+# Function to scrape articles from Elsevier
 def scrape_article(driver, article_links, article_years):
-
     result = {
         "judul": [],
         "penulis": [],
-        "tahun" : [],
+        "tahun": [],
         "sdgs": [],
         "abstrak": []
     }
@@ -139,83 +134,55 @@ def scrape_article(driver, article_links, article_years):
     abstrak = []
     sdgs = []
 
-    # Loop melalui setiap link artikel
     for link in article_links:
-        # Membuka halaman artikel di Elsevier
         driver.get(link)
-        time.sleep(3)
+        random_delay()
+        perform_human_interaction(driver)
         penulisBanyak = []
-
-        # Menggunakan BeautifulSoup untuk mengekstrak konten dari halaman artikel
         soup = BeautifulSoup(driver.page_source, 'html.parser')
-
         judul.append([h2.get_text(strip=True) for h2 in soup.find_all('h2', class_='Typography-module__lVnit Typography-module__o9yMJ Typography-module__JqXS9 Typography-module__ETlt8')])
         abstrak.append([p.get_text(strip=True) for p in soup.find_all('p', class_='Typography-module__lVnit Typography-module__ETlt8 Typography-module__GK8Sg')])
         sdgs.append([div.get_text(strip=True) for div in soup.find_all('div', class_='margin-size-16-b')])
-        # Mencari penulis
         div_elements = soup.find_all('ul', class_='DocumentHeader-module__LpsWx')
-
-        # Loop melalui setiap elemen div yang ditemukan
         for div_element in div_elements:
-            # Mencari semua elemen span di dalam div
             spans = div_element.find_all('span', class_='Typography-module__lVnit Typography-module__Nfgvc Button-module__Imdmt')
-            # Loop melalui setiap elemen span dan menyimpan nilainya
             for span in spans:
                 penulisBanyak.append(span.text)
-
-        # Tampilkan nilai-nilai yang ditemukan
         penulis.append(";".join(penulisBanyak))
-        print(penulisBanyak)
-
     result["judul"] = judul
     result["penulis"] = penulis
     result["tahun"] = article_years
     result["abstrak"] = abstrak
     result["sdgs"] = sdgs
-
     return result
-
 
 # Main program
 if __name__ == "__main__":
     try:
-        # Masukkan username dan password untuk SINTA
         username_sinta = "suryoadhiwibowo@telkomuniversity.ac.id"
         password_sinta = "Bangkit2023!"
-
-        # Masukkan username dan password untuk Elsevier
         username_elsevier = "hamdanazani@student.telkomuniversity.ac.id"
         password_elsevier = "dayak1352"
-
-        # Jumlah halaman yang ingin Anda scrap dari SINTA
         num_pages = 1
 
-        # Login ke SINTA
-        driver = login_sinta(username_sinta, password_sinta)
-
-        # Jika login berhasil ke SINTA, dapatkan link artikel dari halaman target di SINTA
+        # Initialize driver
+        driver = create_driver()
+        login_sinta(driver, username_sinta, password_sinta)
         target_url_sinta = 'https://sinta.kemdikbud.go.id/affiliations/profile/1093?page=110&view=scopus'
         article_links, article_years = get_article_links(driver, target_url_sinta, num_pages)
         print(article_links)
         print(article_years)
 
-        # Tutup browser SINTA
-        driver.quit()
+        # Scrape Elsevier
+        driver = create_driver()
+        login_elsevier(driver, username_elsevier, password_elsevier)
+        result = scrape_article(driver, article_links, article_years)
 
-        if article_links:
-            # Jika berhasil mendapatkan link artikel, buka browser baru untuk Elsevier
-            driver_elsevier = login_elsevier(username_elsevier, password_elsevier)
-
-            # Lakukan scraping pada setiap artikel di Elsevier
-            result = scrape_article(driver_elsevier, article_links, article_years)
-
-            # Tutup browser Elsevier
-            driver_elsevier.quit()
-
-        # Membuat DataFrame dari data
+        # Save results to JSON
         df = pd.DataFrame(result)
+        df.to_json('testing_sinta_sele.json', orient='records', indent=4)
 
-        # Menyimpan DataFrame sebagai file JSON
-        df.to_json('2022.json', orient='records', indent=4)
+        # Close the driver
+        driver.quit()
     except Exception as e:
-        print("Terjadi error:",str(e))
+        print("Terjadi error:", str(e))
