@@ -21,14 +21,16 @@ if __name__ == "__main__":
     month = current_date.month
     day = current_date.day
 
-    one_month_ago = current_date - datetime.timedelta(days=30)
+    one_month_ago = current_date - datetime.timedelta(days=90)
 
     year2 = one_month_ago.year
     month2 = one_month_ago.month
     day2 = one_month_ago.day
     
-    start_day,start_month,start_year = day,month,year
-    end_day,end_month,end_year = day2,month2,year2
+    start_day,start_month,start_year = day2,month2,year2
+    end_day,end_month,end_year = day,month,year
+    print(day,month,year)
+    print(day2,month2,year2)
     publication_type =[AdvancedSearchType.SKRIPSI, 
                        AdvancedSearchType.TA,
                        #AdvancedSearchType.THESIS
@@ -57,7 +59,7 @@ if __name__ == "__main__":
             file = 'SKRIPSI' 
         elif publication_type[i] == 6 :
             file = 'TA'
-        print(f'Scraping {file}......')
+        print(f'Scraping {file} at',day,month,year,'to ',day2,month2,year2,'......')
 
         content = oplib.get_all_data_from_range_date(**search_options)
         results = oplib.parse_results(content)
@@ -79,12 +81,11 @@ if __name__ == "__main__":
             # print(f"[{index}/{totals}]: {data['title']}")
 
         # #Save csv file 
-        # file_name = f'{start_day}-{start_month}-{start_year}_{end_day}-{end_month}-{end_year}_{file}.xlsx'
-        # df.to_excel(file_name, index=False)
+        file_name = f'{start_day}-{start_month}-{start_year}_{end_day}-{end_month}-{end_year}_{file}.xlsx'
+        df.to_excel(file_name, index=False)
 
-        # print(f'\nFinish Scraping all {file} data!\nfile name :  {file_name}\n\n')
+        print(f'\nFinish Scraping all {file} data!\nfile name :  {file_name}\n\n')
 
-        #Lakukan preprocess
         # Lakukan preprocess
         try:
             df = pd.read_json("contoh hasil keluaran_skripsi.json")

@@ -28,7 +28,6 @@ class OpenLibrary:
     
     def get_pagination(self, content: str) -> list:
         parsed = BeautifulSoup(content, "html.parser")
-        print(parsed)
         
         paginations = parsed \
             .find("div", class_="pagination-imtelkom") \
