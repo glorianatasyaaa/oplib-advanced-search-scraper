@@ -95,20 +95,20 @@ class OpenLibrary:
             
     def parse_result(self, content):
         parsed = BeautifulSoup(content, "html.parser")
-        
+
         header = parsed \
                     .find("div", class_="page-header page-header-imtelkom") \
                     .find("h1") \
                     .find(text=True, recursive=False)
-        
+
         result = {}
         result["title"] = header
 
         catalog_attributes = parsed.find_all("div", class_="catalog-attributes")
-        
+
         general_information = catalog_attributes[0] \
                             .find("div", class_="col-md-3 col-sm-8 col-xs-12")
-        
+
         classification = general_information\
                     .find_all("p")[-3]\
                     .get_text()\
@@ -127,25 +127,24 @@ class OpenLibrary:
                     .strip()
         result["subject"] = self.remove_html_tags(subject)
 
+        try:
+            abstract_section = parsed.find_all("div", class_="abstract")
+            keywords = abstract_section[-1].get_text().strip()
 
-        abstract = catalog_attributes[0] \
-                    .find("div", class_="col-md-7 col-sm-12 col-xs-12") \
-                    .find("p") \
-                    .find_all("p")
-        
-        keywords = abstract[-1].get_text().strip()
-        
-        abstract = abstract[:-1]
-        abstract = "\n".join([a.get_text().strip() for a in abstract])
+            abstract = abstract_section[:-1]
+            abstract = "\n".join([a.get_text().strip() for a in abstract])
 
-        result["abstract"] = self.remove_html_tags(abstract)
-        result["keywords"] = self.remove_html_tags(keywords)
+            result["abstract"] = self.remove_html_tags(abstract)
+            result["keywords"] = self.remove_html_tags(keywords)
+        except (AttributeError, IndexError) as e:
+            result["abstract"] = ""
+            result["keywords"] = ""
 
         authors_info, publisher_info, _ = catalog_attributes[1].find_all("div", class_="col-md-4 col-sm-4 col-xs-12")  
-        
+
         get_table_row = lambda elm: elm.find("table").find_all("tr")
         parse_elm = lambda elm: elm.find_all("td")[1].get_text().strip()
-        
+
         author, type, lecturer, translator = get_table_row(authors_info)
         publisher_name, publisher_city, publish_year = get_table_row(publisher_info)
 
@@ -153,7 +152,7 @@ class OpenLibrary:
         result["lecturer"] = parse_elm(lecturer)
         result["publisher"] = parse_elm(publisher_name)
         result["publish_year"] = parse_elm(publish_year)
-        
+
         return result
     
     def remove_html_tags(self, text: str) -> str:
