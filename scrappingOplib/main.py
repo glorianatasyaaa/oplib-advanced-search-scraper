@@ -21,7 +21,7 @@ if __name__ == "__main__":
     month = current_date.month
     day = current_date.day
 
-    one_month_ago = current_date - datetime.timedelta(days=30)
+    one_month_ago = current_date - datetime.timedelta(days=90)
 
     year2 = one_month_ago.year
     month2 = one_month_ago.month
