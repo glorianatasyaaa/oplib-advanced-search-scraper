@@ -1,0 +1,132 @@
+[
+    {
+        "judul":[
+            "Design Principles of Digital Storytelling for Children: A Design Science Research Case"
+        ],
+        "penulis":"Aditya, Bayu Rima;Permadi, Aditya;Andrisyah;Hernawati, Elis",
+        "tahun":2024,
+        "sdgs":[
+
+        ],
+        "abstrak":[
+            "Digital storytelling content has been usefully developed to enhance children's enthusiasm for learning. However, its production is impeded by no specific guidelines that help teachers and other stakeholders to design digital storytelling for children. With a design science research approach, this study focused on conceptualizing the functional and non-functional principles for designing digital storytelling. This study provided seven design principles to effectively design digital storytelling for children. The design principles in this study can increase the chance of digital learning resources and offer further research in the context of digital storytelling for children. \u00a9 2023 The Authors. Published by Elsevier B.V."
+        ]
+    },
+    {
+        "judul":[
+            "Demonstration of conservation of momentum using Lato Lato 2.0"
+        ],
+        "penulis":"Wibowo, Edy;Ulya, Naily;Marwoto, Putut",
+        "tahun":2024,
+        "sdgs":[
+
+        ],
+        "abstrak":[
+            "In this work, the second generation of Lato Lato (Lato Lato 2.0) has been used to demonstrate the concept of conservation of momentum. The Lato Lato 2.0 toys are two identical solid balls that are attached to the stick handle via a stick. The balls are meant to rotate in response to the movements of the stick handle. With the assistance of these toys, the concepts of action-reaction forces, two objects colliding, and conservation of momentum are easily understood. As an alternative to commonly used apparatus such as the Newton Cradle, these inexpensive toys can undoubtedly elucidate the concepts of conservation of momentum. Therefore, the Lato Lato 2.0 can be used for pedagogical purposes in learning physics. Indeed, physics is more enjoyable to learn and easier to understand through demonstrations. \u00a9 2024 IOP Publishing Ltd."
+        ]
+    },
+    {
+        "judul":[
+            "Implementation and Benchmarking of Kubernetes Horizontal Pod Autoscaling Method to Event-Driven Messaging System"
+        ],
+        "penulis":"Pilyai, Xavier;Irsyad, Rafsanjani Nurul;Zaini, Ikhwan Nashir;Negara, Ridha Muldina;Hertiana, Sofia Naning;Tulloh, Rohmat",
+        "tahun":2024,
+        "sdgs":[
+
+        ],
+        "abstrak":[
+            "The rapid development of technology is accompanied by a large number of demands and users. One of the solutions is to create reliable infrastructure that can support application performance. Kubernetes is a platform which offers one of the solutions by providing container application orchestration and enabling high availability and scalability through various automatic scaling mechanisms such as Horizontal Pod Autoscaler (HPA), which dynamically scales the number of pod resources without restarting the entire system. By default, Kubernetes only monitors built-in resource metrics such as CPU and memory usage for each host machine and pod. To use Custom Metrics, external software such as Prometheus can be employed to monitor metrics as needed. On the other hand, Kubernetes Event-driven Autoscaling (KEDA) software offers a solution to simplify and facilitate autoscaling by efficiently implementing event-based automatic scaling and achieving the scale-to-zero capability. In this paper, we investigate the performance of autoscaling through various experiments to understand the behavior of each custom metrics autoscaling solution. \u00a9 The Author(s), under exclusive license to Springer Nature Switzerland AG 2024."
+        ]
+    },
+    {
+        "judul":[
+            "Data Warehouse Design for Firefighters Operational at the DKI Jakarta Fire Department"
+        ],
+        "penulis":"Warnars, Harco Leslie Hendric Spits;Warnars, Laurens Spits;Ramadhan, Arief;Siswanto, Teddy;Doucet, Antoine",
+        "tahun":2024,
+        "sdgs":[
+
+        ],
+        "abstrak":[
+            "This paper proposed two models of data warehouse schema for the fire department of DKI Jakarta, where the 1st model contains six tables consisting of 3 fact and 3-dimensional tables, and the 2nd model only contains three fact tables. The 2nd model denormalises the 1st model, where the number of tables is less than the 1st model, where at the end of the day, the 2nd model will reduce the join table process, which increases the SQL performances. These two models have been recognised as fact constellation schema with more than one fact table and sharing dimension and sub-dimension tables. The database resources were collected from http:\/\/data.jakarta.go.id under the Fire and Rescue Service Agency. Those two data warehouse schema models were developed based on a report sector list, a report on Hydrants list, and vehicle register reports. This paper proposes to support Automatic Identification Systems (AIS) research, particularly implementing the data warehouse concept. \u00a9 2024 Harco Leslie Hendric Spits Warnars et al; published by UIKTEN. This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivs 4.0 License. The article is published with Open Access at https:\/\/www.temjournal.com\/"
+        ]
+    },
+    {
+        "judul":[
+            "Unraveling the crypto market: A journey into decentralized finance transaction network"
+        ],
+        "penulis":"Alamsyah, Andry;Muhammad, Ivan Farid",
+        "tahun":2024,
+        "sdgs":[
+
+        ],
+        "abstrak":[
+            "The explosive growth of decentralized finance (DeFi) has revolutionized the accessibility and functionality of financial services. To gain valuable insights into this evolving ecosystem, analyzing transaction data using network analysis methodology proves to be highly effective. Network analysis allows us to uncover intricate relationships, patterns, and communities within the DeFi market by examining participant transactions. We model nodes group representing actors or wallet addresses, and edges represent transactions between wallet addresses. This study focuses on three prominent DeFi token-based Ethereum protocols: DAI, UNI, and WBTC. We analyzed 5,802,742 transaction data spanning from January 2022 to January 2023 of those three tokens. Using network topology metrics, we uncover market size, average transaction of each wallet address, market density, and reachability (diameter). We also detect the presence of transaction clusters and grouping quality using the modularity metric. At last, we employ centrality calculation to identify the most important wallet address and their role in the market. We gain insight by comparing those three tokens and reveal valuable insight into patterns and relationships, network dynamics, decentralized nature, and the presence of intermediaries in the token economy market. Our objective is to uncover hidden dynamics and trace asset flows, which can provide valuable information to market participants, regulators, and innovators seeking to optimize the DeFi infrastructure, ensure stability, and mitigate risks. Leveraging the power of network analysis offers the potential to shape the future of DeFi by enhancing efficiency, security, and accessibility, thereby fostering financial inclusion and empowering individuals and businesses globally. \u00a9 2024 The Authors"
+        ]
+    },
+    {
+        "judul":[
+            "Synthesis and characterization of hydrogels from cellulose and its derivatives"
+        ],
+        "penulis":"Pitaloka, Alia Badra;Maulana, Muhammad;Wibowo, Ahmad Hendra;Adiwibowo, Muhammad Triyogo;Pramudita, Marta;Agustina, Sri",
+        "tahun":2024,
+        "sdgs":[
+
+        ],
+        "abstrak":[
+            "Hydrogel is a multipurpose, water-absorbent material. Some prospective raw materials for hydrogel synthesis are cellulose and its derivatives: sodium carboxymethyl cellulose (NaCMC) and hydroxyethyl cellulose (HEC). This research focuses on hydrogels synthesized from cellulose-NaCMC-citric acid and HEC-NaCMC-citric acid. This study aims to determine the effect of cellulose, NaCMC, and HEC composition on the characterization of hydrogels. Characterization methods used in this research include determination of swelling ratio and gel fraction, FTIR analysis, and morphology analysis using SEM. The first step of making hydrogel involves dissolving each cellulose, HEC, NaCMC, and citric acid in distilled water. Cellulose solution, NaCMC solution, and citric acid (CA) solution were mixed with a volume ratio of 1:1:1, 2:1:1, 3:1:1, 1:2:1, and 1:3:1. The resulting mixtures were molded and oven-dried. The same procedures and variations were repeated using HEC as a substitute for cellulose. The swelling ratio was measured at 1 to 7 hours at room temperature. Hydrogel with the highest swelling ratio value of 2012% was obtained with the ratio of cellulose-NaCMC-CA of 1:3:1. The highest gel fraction of 155% was obtained with the ratio of cellulose-NaCMC-CA of 1:1:1. \u00a9 2024 Author(s)."
+        ]
+    },
+    {
+        "judul":[
+            "Ultrawide-band Wearable Antenna with Uniplanar Compact Electromagnetic Band Gap"
+        ],
+        "penulis":"Ibrahim, Muhammad Kinan;Nur, Levy Olivia;Ryanu, Harfan Hian",
+        "tahun":2024,
+        "sdgs":[
+
+        ],
+        "abstrak":[
+            "Ultrawide-band technology, commonly known as UWB, sends data over a wide frequency range for many applications. WBAN applications use wearable antennas because they have flexible materials and are suitable for telemedicine technology and have many advantages such as small size, lightweight, able to work at a wide enough frequency, easy fabrications, and affordable costs. In this research, the hexagonal patch ultrawide-band monopole planar wearable antenna was designed using Cordura Delinova 2000 textile material for the substrate and copper tape for the groundplane and patch. The Uniplanar Compact Electromagnetic Band Gap (UC-EBG) as a metamaterial was added to the design of the monopole planar antenna in this final project which aims to improve antenna parameters, increase efficiency, and reduce the effects of radiation on the body. From the measurement results on the antenna with the addition of the UC-EBG structure at the bottom of the patch, it produces a 6% fractional bandwidth increase and able to work in the frequency range of 3-10 GHz off-body conditions and 2-11 GHz on-body conditions. In the SAR test at 45 mm, it was found that the value decreased from previously 1.535 W\/Kg to 1.31 W\/Kg at a frequency of 3.5 GHz and previously from 1.421 to 1.267 W\/Kg at a frequency of 5 GHz on a wrist phantom object which is a good value for SAR. The resulting increase in antenna gain after the addition of the UC-EBG structure. The radiation pattern on the antenna is bidirectional.  \u00a9 Published under licence by IOP Publishing Ltd."
+        ]
+    },
+    {
+        "judul":[
+            "Software-Defined Exchange (SDX) as Solutions of Internet Exchange Point (IXP): An Argumentative Literature Review"
+        ],
+        "penulis":"Kasad, Nurul Wahda R.;Lubis, Muharman;Saedudin, Rd. Rohmat",
+        "tahun":2024,
+        "sdgs":[
+
+        ],
+        "abstrak":[
+            "Adopting the Software-Defined Exchange (SDX) concept in network technology, specifically in Internet Exchange Points (IXPs), still requires a comprehensive understanding of various designs and their implementation to provide quality services that increase business value. However, this needs to be understood by all involved parties. They are determining the model and management team and ensuring that all potential security threats can influence the success of SDX implementation at IXP. This research shows various perspectives on the definition, management benefits, and SDX implementation's impact and consequences are obtained. It can be a consideration when implementing SDX in the industry environment. \u00a9 The Author(s), under exclusive license to Springer Nature Singapore Pte Ltd. 2024."
+        ]
+    },
+    {
+        "judul":[
+            "A Novel Digitized Microscopic Images of ZN-Stained Sputum Smear and Its Classification Based on IUATLD Grades"
+        ],
+        "penulis":"Aulia, Suci;Suksmono, Andriyan Bayu;Mengko, Tati Rajab;Alisjahbana, Bachti",
+        "tahun":2024,
+        "sdgs":[
+
+        ],
+        "abstrak":[
+            "Microscopic detection of acid-fast bacilli (AFB) from mycobacterium tuberculosis (MTB) in Ziehl-Neelsen (ZN)-stained sputum samples is a crucial step in the detection of TB (tuberculosis) disease. Pathologists encounter many challenges that may result in incorrect diagnoses, such as the heterogeneous shape and irregular appearance of MTB, low-quality ZN staining, and errors in in scanning each of the field of view (FoV) using a conventional microscope. Additionally, multiple manual observations may cause fatigue that leads to human error. Several studies have created microscopic imaging databases of sputum samples, aiding researchers in creating computer-aided diagnosis (CAD) for tuberculosis, which is a promising method that offers timely, reliable, and repeatable assistance. Nevertheless, the implementation of CAD systems for TB diagnosis remains an area of ongoing research and development owing to the lack of microscopic image datasets of sputum samples, which represent whole-slide imaging (WSI) that follows the WHO (World Health Organization) regulations. To address this issue, this study developed a novel digitized microscopic image from sputum smear samples of Indonesian patients in the WSI that conform to the WHO regulation. These images are collected as a Microscopic Imaging Database of Tuberculosis Indonesia (MIDTI). This study also proposed a method based on the YOLOv7 (You Only Look Once seventh version) algorithm to develop a CAD for tuberculosis diagnosis by classifying ZN-stained sputum smear samples into International Union Against Tuberculosis and Lung Disease (IUATLD) grades, which has never been revealed in any previous studies.  \u00a9 2013 IEEE."
+        ]
+    },
+    {
+        "judul":[
+
+        ],
+        "penulis":"",
+        "tahun":2024,
+        "sdgs":[
+
+        ],
+        "abstrak":[
+
+        ]
+    }
+]
