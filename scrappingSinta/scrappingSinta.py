@@ -152,8 +152,8 @@ def scrape_article(driver, article_links, article_years):
         judul.append([h2.get_text(strip=True) for h2 in soup.find_all('h2', class_='Typography-module__lVnit Typography-module__o9yMJ Typography-module__JqXS9 Typography-module__ETlt8')])
         abstrak.append([p.get_text(strip=True) for p in soup.find_all('p', class_='Typography-module__lVnit Typography-module__ETlt8 Typography-module__GK8Sg')])
         sdgs.append([div.get_text(strip=True) for div in soup.find_all('div', class_='margin-size-16-b')])
-        # Mencari semua elemen span di dalam div dengan kelas yang sesuai
-        div_elements = soup.find_all('div', class_='col-24 col-lg-18 col-xl-16')
+        # Mencari penulis
+        div_elements = soup.find_all('ul', class_='DocumentHeader-module__LpsWx')
 
         # Loop melalui setiap elemen div yang ditemukan
         for div_element in div_elements:
@@ -165,6 +165,7 @@ def scrape_article(driver, article_links, article_years):
 
         # Tampilkan nilai-nilai yang ditemukan
         penulis.append(";".join(penulisBanyak))
+        print(penulisBanyak)
 
     result["judul"] = judul
     result["penulis"] = penulis
@@ -187,7 +188,7 @@ if __name__ == "__main__":
         password_elsevier = "dayak1352"
 
         # Jumlah halaman yang ingin Anda scrap dari SINTA
-        num_pages = 2
+        num_pages = 1
 
         # Login ke SINTA
         driver = login_sinta(username_sinta, password_sinta)
